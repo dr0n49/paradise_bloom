@@ -1,0 +1,50 @@
+{
+  "base": {
+    "rtp": "96.00%",
+    "rows": 80000,
+    "eventBookExists": true,
+    "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+  },
+  "extra_chance": {
+    "rtp": "96.00%",
+    "rows": 80000,
+    "eventBookExists": true,
+    "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+  },
+  "super_chance": {
+    "rtp": "96.00%",
+    "rows": 80000,
+    "eventBookExists": true,
+    "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+  },
+  "bonus": {
+    "rtp": "96.00%",
+    "rows": 20000,
+    "eventBookExists": true,
+    "sha256": "d7504637b55fc78997c54abfab5bc94c43bcb5a45b1ddb6e3925c40adf2a3c24"
+  },
+  "raid": {
+    "rtp": "96.00%",
+    "rows": 40000,
+    "eventBookExists": true,
+    "sha256": "8eb523a7ba8e176cfcf375270f11b0a6e33177806894bd48dc1760b6ed2526d7"
+  },
+  "super": {
+    "rtp": "96.00%",
+    "rows": 20000,
+    "eventBookExists": true,
+    "sha256": "c0d4cde5e8814a1465b90709b72421c9aae5f3e6a7bade61a43f1884ef3de546"
+  },
+  "mystery": {
+    "rtp": "96.00%",
+    "rows": 20000,
+    "eventBookExists": true,
+    "sha256": "3381adb581b83c29a658890c7dd8c5c7f85bf67a37993f11ab7a2c1c68a8ba02"
+  },
+  "storm": {
+    "rtp": "96.00%",
+    "rows": 40000,
+    "eventBookExists": true,
+    "sha256": "8f4e6393bce82729106322ebeb73fe42aae81854829546371fb64d684eddeeb6"
+  }
+}

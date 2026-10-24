@@ -1,0 +1,369 @@
+{
+  "generator": "ElevenLabs API",
+  "music_model": "music_v2_5",
+  "sfx_model": "eleven_text_to_sound_v3",
+  "specs": {
+    "ui_click_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One elegant tactile UI click for a luxury fantasy game: a tiny soft wooden tick layered with a very quiet crystalline glint. Immediate onset, crisp and short, gentle not sharp; clean studio isolation, no voice, no background music, no repeated clicks.",
+        "duration_seconds": 0.5,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "trigger_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A short luxurious fantasy bonus trigger flourish: a fluid ascending harp glissando blooms into a warm D-major string chord with crystal chimes, clear elegant success and discovery, soft luminous decay. No bombastic brass, no huge drums, no voices, clean isolated sting.",
+        "duration_seconds": 3.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "lotus_open_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A large golden lotus opening with a warm magical bloom: delicate petal movement, pearl-like chime taps and a subtle soft gold shimmer in D major. Rich detailed acoustic textures, clean immediate reveal, no treasure chest or mechanical creak, no voices, isolated.",
+        "duration_seconds": 1.5,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "scatter_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One magical golden lotus card landing: a bright but soft glass-bell ping in D major that blossoms into airy shimmering chimes, warm rich body and delicate sparkling trail. Immediate clear onset, refined acoustic timbre, no harsh synth, isolated single event, no voice or background bed.",
+        "duration_seconds": 1.4,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "summary_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A graceful five-second total-win resolution for a celestial garden: warm D-major string cadence, delicate harp and celesta glissandi, a few soft gold bell sparkles, deep but gentle orchestral warmth and a beautiful resolving tail. Elegant satisfaction rather than an alarm. No voices, no heavy drums, no clipped transients.",
+        "duration_seconds": 5.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "extra_spin_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A short joyful bonus-spin award: three light harp and celesta notes stepping upward in D major, soft shimmering accent at the top. Airy, refined, optimistic, clear immediate onset and clean tail, no voice, no continuous music.",
+        "duration_seconds": 1.5,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "unlock_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One ivory and gold lotus gently unfurling: soft organic petal rustle with a clear ascending pair of warm celesta notes in D major and a tiny sparkling finish. Elegant unlocked-object sound, immediate start, no lock or chest creak, no voices, no background music.",
+        "duration_seconds": 1.4,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "music_bonus_v9": {
+      "kind": "music",
+      "body": {
+        "prompt": "Original premium cinematic fantasy chamber-orchestra background score for Paradise Bloom, a luminous paradise garden floating on clouds. Beautiful real acoustic instrument timbres, polished spacious stereo recording, warm and inviting with restrained dynamics, delicate detail and a memorable understated five-note motif. Instrumental only: no singing, choir, speech or vocal samples. D major with a light Lydian color. Harp, felt piano, celesta, lyrical flute and soft bowed strings; gentle warm bass, tiny elegant shimmering accents. Clear open midrange so short interface sounds remain distinct. No heavy drums, EDM, trap, rock guitar, cheap synthesizer bleeps, epic trailer hits or bombastic brass. Build a cohesive repeating musical landscape with four balanced phrases, subtle orchestration variations, no dramatic intro, no silence, no large final cadence; end on a suspended soft texture that can flow into the opening. Studio mastered, no distortion, no audible hiss. Twilight enchanted garden full of lanterns and fireflies, 104 BPM, light pizzicato string pulse, dancing harp and celesta, fuller warm strings and gentle orchestral hand-percussion. A little more lift and discovery than the main theme, sparkling and joyous while still refined and not frantic. Same D-major/Lydian tonal world and an understated five-note motif. Keep the whole 120 seconds musically consistent.",
+        "music_length_ms": 120000,
+        "force_instrumental": true,
+        "model_id": "music_v2_5"
+      }
+    },
+    "cluster_win_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A single refined small-win confirmation: a clear short ascending three-note celesta and harp figure in D major, with tiny sparkling bell overtones and a soft warm finish. Elegant acoustic fantasy game sound, pleasing gentle volume, immediate attack, not a casino alarm, isolated no voices or background music.",
+        "duration_seconds": 1.3,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "pop_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One cluster of flower petals dissolving into a tiny soft cloud puff, with a delicate glassy sparkle and airy brush. Light satisfying organic pop, immediate attack, short clean decay, no cartoon squeak, no electronic bleep, no voice, no music.",
+        "duration_seconds": 0.7,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "bigwin_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A refined five-second big-win celebration in D major: expressive chamber strings lifting, brilliant harp run and elegant celesta sparkles, gentle orchestral cymbal shimmer. Premium fairy-tale score finish with rich detailed depth, joyous but not loud or brash. No voices, no electronic alarm, no heavy drums.",
+        "duration_seconds": 5.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "feature_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A premium short enchanted-garden entry fanfare, warm D-major strings, graceful harp sweep, celesta and a gentle breathy flute answer. Elegant joyful wonder, restrained rounded dynamics, polished spacious orchestral recording. One four-second sting, no vocals, no brass blast or heavy drums.",
+        "duration_seconds": 4.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "multiply_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A refined rising multiplier flourish: plucked harp arpeggio in D major with a delicate sparkling celesta cascade and warm short string lift. Satisfying growth and radiance, not bombastic, smooth clean tail, no voice or continuous bed.",
+        "duration_seconds": 2.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "land_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One very short soft rounded pearl landing tap with a tiny warm celesta chink; delicate tactile body, immediate attack and quick natural decay, elegant repeated tile landing, no metallic harshness, no voices, no music bed, isolated.",
+        "duration_seconds": 0.5,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "spin_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One soft airy upward-then-downward magical whoosh of silk and flower petals, a refined spin-start gesture, delicate high-air texture and a subtle low soft brush, quick responsive attack, no harsh electronic buzz, no melody, isolated clean game sound, no voices.",
+        "duration_seconds": 0.8,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "transition_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A single soft sweeping cloud transition: silk-like airy whoosh drifting left to right, faint sparkling wind chimes and gentle warm low air, smooth flowing onset and tail, no thunder, no harsh impact, no voice, no music bed.",
+        "duration_seconds": 1.3,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "music_base_v9": {
+      "kind": "music",
+      "body": {
+        "prompt": "Original premium cinematic fantasy chamber-orchestra background score for Paradise Bloom, a luminous paradise garden floating on clouds. Beautiful real acoustic instrument timbres, polished spacious stereo recording, warm and inviting with restrained dynamics, delicate detail and a memorable understated five-note motif. Instrumental only: no singing, choir, speech or vocal samples. D major with a light Lydian color. Harp, felt piano, celesta, lyrical flute and soft bowed strings; gentle warm bass, tiny elegant shimmering accents. Clear open midrange so short interface sounds remain distinct. No heavy drums, EDM, trap, rock guitar, cheap synthesizer bleeps, epic trailer hits or bombastic brass. Build a cohesive repeating musical landscape with four balanced phrases, subtle orchestration variations, no dramatic intro, no silence, no large final cadence; end on a suspended soft texture that can flow into the opening. Studio mastered, no distortion, no audible hiss. Golden hour atmosphere, calm wonder and gentle optimistic forward motion, 80 BPM, soft brushed textures only, easy to hear repeatedly for long sessions. Understated elegant melody with breathing space; glistening harp arpeggios and a warm expressive string bed. Keep the whole 120 seconds musically consistent.",
+        "music_length_ms": 120000,
+        "force_instrumental": true,
+        "model_id": "music_v2_5"
+      }
+    },
+    "bank_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "One small golden droplet feeding a lotus: a warm plucked harp note in D major and tiny glass droplet glint, satisfying delicate charge-up ping, quick attack and short natural decay, no harshness, no voices, isolated clean audio.",
+        "duration_seconds": 0.8,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "maxwin_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A sumptuous seven-second ultimate-win orchestral flourish in D major: soaring warm string ensemble, two sweeping harp glissandi, radiant celesta and glass bells, subtle low orchestral warmth, a long beautiful resolving tail. Premium cinematic fantasy, triumphant yet graceful. No vocals, no pounding drums, no harsh brass, no synthetic casino alarm.",
+        "duration_seconds": 7.0,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    },
+    "anticipation_v9": {
+      "kind": "sfx",
+      "body": {
+        "text": "A restrained magical anticipation swell: fine airy sparkling particles rise over a softly bowed glass harmonic in D major, tension through brightening texture, very gentle low swell, open ending. No percussion hit, no alarm, no voices, no dark ominous horror, isolated fantasy game sound.",
+        "duration_seconds": 2.8,
+        "prompt_influence": 0.55,
+        "model_id": "eleven_text_to_sound_v3"
+      }
+    }
+  },
+  "generation_results": {
+    "ui_click_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/ui_click_v9.mp3",
+      "bytes": 13208,
+      "sha256": "a873cb56174a5788b22817e788109797b3478cb8e9da11e2019302e3663170e2",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 3.68
+    },
+    "trigger_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/trigger_v9.mp3",
+      "bytes": 73394,
+      "sha256": "a985b197c201542505e0ba283917c23b5d990a26f8c2832bf12212bf203f4054",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 3.02
+    },
+    "lotus_open_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/lotus_open_v9.mp3",
+      "bytes": 37032,
+      "sha256": "bc561df7bb1557a2b371106b87d33339b17db3330629c6a24b4d1cfc04e90a51",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.7
+    },
+    "scatter_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/scatter_v9.mp3",
+      "bytes": 34524,
+      "sha256": "03b92dd4223b0c768a2821c9a6f0dc7c082634ba32e2e9534e4d85196b91049b",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.52
+    },
+    "summary_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/summary_v9.mp3",
+      "bytes": 121669,
+      "sha256": "bfed77ec75baddb53abd95ffec9a963602d67b2ef00ec72307978175350f470e",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.05
+    },
+    "extra_spin_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/extra_spin_v9.mp3",
+      "bytes": 37032,
+      "sha256": "5d6788514bbcdd88218504f4985fd98e49d80ad25e286d55125ffd858f39ca0d",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.36
+    },
+    "unlock_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/unlock_v9.mp3",
+      "bytes": 34524,
+      "sha256": "b44fde62abe046c13de0ea7b14423f0b3687f53087fe807e1d0d4b6f8fe47ede",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.13
+    },
+    "music_bonus_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/music_bonus_v9.mp3",
+      "bytes": 2880620,
+      "sha256": "e2657c140dfdf0dd33e57ff4b77fd038364b52f4db85897e851a501c6f161f67",
+      "song_id": "DgHYlyloeoWArDpXQUht",
+      "request_id": null,
+      "elapsed_seconds": 11.88
+    },
+    "cluster_win_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/cluster_win_v9.mp3",
+      "bytes": 32016,
+      "sha256": "46fd58bcb75bd7cc42ea5bc87a07fac4959596bfc13d32b4e2cf5d356b18b13f",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.89
+    },
+    "pop_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/pop_v9.mp3",
+      "bytes": 18224,
+      "sha256": "fdb4843f9f8ce77ec2a3dadd273f8c712dbca7d65b9279fa3a9c19b3678e7190",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 3.09
+    },
+    "bigwin_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/bigwin_v9.mp3",
+      "bytes": 121669,
+      "sha256": "866c9c0eb57585b7d7842e58d8b0d1c94afbedc3e5a20d06b658fa4beab9dda5",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.76
+    },
+    "feature_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/feature_v9.mp3",
+      "bytes": 97845,
+      "sha256": "7a97b350724a103cab07b63d8471cf4918b47221a3908c1d16aa3b2b3010a325",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 1.89
+    },
+    "multiply_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/multiply_v9.mp3",
+      "bytes": 49571,
+      "sha256": "60f3dec5eefeb10b9f4b25cdc88ccf40588f8b3f1a12acccbfee37e02be5ea57",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.87
+    },
+    "land_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/land_v9.mp3",
+      "bytes": 13208,
+      "sha256": "75342f7e0836245e8cc072424f9535f5922f97a8c6395838704c26c13222a763",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 3.88
+    },
+    "spin_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/spin_v9.mp3",
+      "bytes": 20732,
+      "sha256": "9d75a1fbbd42549ed304edbf139289c518a34f9a9406dee69cc737c1479a92f2",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.33
+    },
+    "transition_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/transition_v9.mp3",
+      "bytes": 32016,
+      "sha256": "ebc34408001f9f60e711fd96091a35a0c19e4789d1a98e3d4a08d88d157c38b2",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.01
+    },
+    "music_base_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/music_base_v9.mp3",
+      "bytes": 2880620,
+      "sha256": "10a1511cf7f533f37c94c4cc2ffc1882a4d3a97d8582812c598979cf0076ed33",
+      "song_id": "dS5o9PLPu1y3vfcZqrc3",
+      "request_id": null,
+      "elapsed_seconds": 10.12
+    },
+    "bank_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/bank_v9.mp3",
+      "bytes": 20732,
+      "sha256": "fe80e61fddbc0cc62e18e0984f3bdc717f6b150aea2ac47696f47173d17826d9",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 1.9
+    },
+    "maxwin_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/maxwin_v9.mp3",
+      "bytes": 169316,
+      "sha256": "aa98480b19c0606b0c75a1c29da0a38ef9fde79b19c57b37b3e44221b4a8185c",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.81
+    },
+    "anticipation_v9": {
+      "ok": true,
+      "file": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/outputs/audio_v9/originals/anticipation_v9.mp3",
+      "bytes": 67752,
+      "sha256": "6f40a0e3d87ed83c64c5bc303706c8cd8f2ef7aee0c2a4f24d59df38e973c439",
+      "song_id": null,
+      "request_id": null,
+      "elapsed_seconds": 2.65
+    }
+  }
+}

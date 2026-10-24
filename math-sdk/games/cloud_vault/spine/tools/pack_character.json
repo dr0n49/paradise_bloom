@@ -1,0 +1,52 @@
+{
+  "stripWhitespaceX": false,
+  "stripWhitespaceY": false,
+  "rotation": false,
+  "alias": true,
+  "ignoreBlankImages": false,
+  "alphaThreshold": 3,
+  "minWidth": 16,
+  "minHeight": 16,
+  "maxWidth": 2048,
+  "maxHeight": 2048,
+  "pot": false,
+  "multipleOf4": false,
+  "square": false,
+  "outputFormat": "png",
+  "jpegQuality": 0.9,
+  "premultiplyAlpha": true,
+  "bleed": true,
+  "scale": [
+    0.6
+  ],
+  "scaleSuffix": [
+    ""
+  ],
+  "scaleResampling": [
+    "bicubic"
+  ],
+  "paddingX": 2,
+  "paddingY": 2,
+  "edgePadding": true,
+  "duplicatePadding": false,
+  "filterMin": "Linear",
+  "filterMag": "Linear",
+  "wrapX": "ClampToEdge",
+  "wrapY": "ClampToEdge",
+  "format": "RGBA8888",
+  "atlasExtension": ".atlas",
+  "combineSubdirectories": false,
+  "flattenPaths": false,
+  "useIndexes": false,
+  "debug": false,
+  "fast": false,
+  "limitMemory": true,
+  "currentProject": false,
+  "packing": "rectangles",
+  "prettyPrint": false,
+  "legacyOutput": false,
+  "bleedIterations": 2,
+  "ignore": false,
+  "separator": "_",
+  "silent": false
+}

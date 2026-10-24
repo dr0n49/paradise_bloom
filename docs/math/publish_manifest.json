@@ -1,0 +1,122 @@
+{
+  "game": "cloud_vault / Paradise Bloom",
+  "math_version": "0.2.0",
+  "archives": {
+    "cloud_vault_math_0.2.0.zip": {
+      "bytes": 308024863,
+      "sha256": "f7e6cc71675ed69a1b6271a86efa17c98590d9aac71e505c0ba9d5364108b6f3",
+      "root_file_count": 17,
+      "crc_ok": true,
+      "every_member_sha256_matches_source": true
+    },
+    "cloud_vault_math_0.2.0_weights_only.zip": {
+      "bytes": 1927741,
+      "sha256": "c0b7f72eb0dad337797a1941e51d65a9e83cb0b50716e8236139d4f41ef5f899",
+      "root_file_count": 9,
+      "crc_ok": true,
+      "every_member_sha256_matches_source": true
+    }
+  },
+  "publish_files": {
+    "index.json": {
+      "bytes": 1444,
+      "sha256": "145312d97348eb2d565154984da1e283864155c1b8195bb1f01186106aef8478"
+    },
+    "books_base.jsonl.zst": {
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    "lookUpTable_base_0.csv": {
+      "bytes": 1614682,
+      "sha256": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778"
+    },
+    "books_extra_chance.jsonl.zst": {
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    "lookUpTable_extra_chance_0.csv": {
+      "bytes": 1637335,
+      "sha256": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572"
+    },
+    "books_super_chance.jsonl.zst": {
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    "lookUpTable_super_chance_0.csv": {
+      "bytes": 1634857,
+      "sha256": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f"
+    },
+    "books_bonus.jsonl.zst": {
+      "bytes": 43981517,
+      "sha256": "d7504637b55fc78997c54abfab5bc94c43bcb5a45b1ddb6e3925c40adf2a3c24"
+    },
+    "lookUpTable_bonus_0.csv": {
+      "bytes": 438871,
+      "sha256": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128"
+    },
+    "books_raid.jsonl.zst": {
+      "bytes": 9647257,
+      "sha256": "8eb523a7ba8e176cfcf375270f11b0a6e33177806894bd48dc1760b6ed2526d7"
+    },
+    "lookUpTable_raid_0.csv": {
+      "bytes": 871490,
+      "sha256": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b"
+    },
+    "books_super.jsonl.zst": {
+      "bytes": 38627865,
+      "sha256": "c0d4cde5e8814a1465b90709b72421c9aae5f3e6a7bade61a43f1884ef3de546"
+    },
+    "lookUpTable_super_0.csv": {
+      "bytes": 430058,
+      "sha256": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640"
+    },
+    "books_mystery.jsonl.zst": {
+      "bytes": 30047565,
+      "sha256": "3381adb581b83c29a658890c7dd8c5c7f85bf67a37993f11ab7a2c1c68a8ba02"
+    },
+    "lookUpTable_mystery_0.csv": {
+      "bytes": 427756,
+      "sha256": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb"
+    },
+    "books_storm.jsonl.zst": {
+      "bytes": 9629148,
+      "sha256": "8f4e6393bce82729106322ebeb73fe42aae81854829546371fb64d684eddeeb6"
+    },
+    "lookUpTable_storm_0.csv": {
+      "bytes": 886051,
+      "sha256": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f"
+    }
+  },
+  "installed_files_sha256": {
+    "weights.py": "e5c72cef6805363570e667c1e5e6c7f25c520f26f488c2759d9f3952000b8eae",
+    "risk_weights.py": "26cdae8dbcbe113598f38404cbe07bdb565d6a863fb44dcab278259feabefaff",
+    "library/publish_files/lookUpTable_base_0.csv": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778",
+    "library/lookup_tables/lookUpTable_base.csv": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778",
+    "library/publish_files/lookUpTable_extra_chance_0.csv": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572",
+    "library/lookup_tables/lookUpTable_extra_chance.csv": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572",
+    "library/publish_files/lookUpTable_super_chance_0.csv": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f",
+    "library/lookup_tables/lookUpTable_super_chance.csv": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f",
+    "library/publish_files/lookUpTable_bonus_0.csv": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128",
+    "library/lookup_tables/lookUpTable_bonus.csv": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128",
+    "library/publish_files/lookUpTable_raid_0.csv": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b",
+    "library/lookup_tables/lookUpTable_raid.csv": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b",
+    "library/publish_files/lookUpTable_super_0.csv": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640",
+    "library/lookup_tables/lookUpTable_super.csv": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640",
+    "library/publish_files/lookUpTable_mystery_0.csv": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb",
+    "library/lookup_tables/lookUpTable_mystery.csv": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb",
+    "library/publish_files/lookUpTable_storm_0.csv": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f",
+    "library/lookup_tables/lookUpTable_storm.csv": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f",
+    "library/configs/config.json": "7f3126ffa3b42236a58adfa8f73958e9abc546013f89ad58574ec0ebb4ca4ebf",
+    "library/rtp_report.json": "b4a00522abd71766960ef07228dc681aa02f924cf3bbdc4bccd9a5457da35864",
+    "test_risk_weights.py": "f4e3190aaa87ee27e420b5a275c4c3eab45954a087880571c90426ee6d17ab03",
+    "README.md": "7b766608b5a34e664093c36a5eb1ede091971be283aab93be8ac6c1e5b3d696b",
+    "frontend/public/demo/books_super_chance.json": "b9c7e6185e7032d8979cdc3de4b0ec76221d68e321a6763564726cf72d7c2eb0",
+    "frontend/public/demo/books_base.json": "19b1714bc6f15e92376a6400ab92ca9f2da7d0af49565fd46314fac5394e0736",
+    "frontend/public/demo/books_storm.json": "0159e5565531fb53d734c9d3bf9bd633a2c3729790941e5fa8203e17b4405b09",
+    "frontend/public/demo/books_extra_chance.json": "41e9df87b6d2ae2b181ea1f6fe18c0a3c1fdec8c363106a028ff4594fcd47e4c",
+    "frontend/public/demo/books_super.json": "480cfd49114b412617db2ea70b43b7f4fb8c7d251760a242c3c36f90aacceb42",
+    "frontend/public/demo/books_mystery.json": "eff15235ba0106fab9fcdd8ff090ed3d4f765c1e7308b9637ea0429ce8464283",
+    "frontend/public/demo/books_raid.json": "e18907e1278f560833c8bd8dfacff5478104192ad2a4caccac829dfe4fae8197",
+    "frontend/public/demo/books_bonus.json": "90b843e5bcbdeda052bd61b4cfa9dd6c4578482d17aa440f9a99b40d05706fc2"
+  }
+}

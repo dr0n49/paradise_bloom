@@ -1,0 +1,411 @@
+{
+    "mysteryReveal": {
+        "type": "mysteryReveal",
+        "outcome": "epic"
+    },
+    "reveal": {
+        "type": "reveal",
+        "board": [
+            [
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "S",
+                    "scatter": true
+                },
+                {
+                    "name": "H1"
+                },
+                {
+                    "name": "H2"
+                },
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "L4"
+                }
+            ],
+            [
+                {
+                    "name": "H4"
+                },
+                {
+                    "name": "S",
+                    "scatter": true
+                },
+                {
+                    "name": "L4"
+                },
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "H2"
+                },
+                {
+                    "name": "L3"
+                },
+                {
+                    "name": "H1"
+                }
+            ],
+            [
+                {
+                    "name": "L2"
+                },
+                {
+                    "name": "L3"
+                },
+                {
+                    "name": "H1"
+                },
+                {
+                    "name": "H1"
+                },
+                {
+                    "name": "S",
+                    "scatter": true
+                },
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "H4"
+                }
+            ],
+            [
+                {
+                    "name": "L4"
+                },
+                {
+                    "name": "H2"
+                },
+                {
+                    "name": "S",
+                    "scatter": true
+                },
+                {
+                    "name": "L2"
+                },
+                {
+                    "name": "L3"
+                },
+                {
+                    "name": "H2"
+                },
+                {
+                    "name": "L1"
+                }
+            ],
+            [
+                {
+                    "name": "L1"
+                },
+                {
+                    "name": "H4"
+                },
+                {
+                    "name": "H4"
+                },
+                {
+                    "name": "L4"
+                },
+                {
+                    "name": "S",
+                    "scatter": true
+                },
+                {
+                    "name": "H2"
+                },
+                {
+                    "name": "H2"
+                }
+            ]
+        ],
+        "paddingPositions": [
+            2,
+            76,
+            92,
+            108,
+            70
+        ],
+        "gameType": "basegame",
+        "anticipation": [
+            0,
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "setTotalWin": {
+        "type": "setTotalWin",
+        "amount": 0
+    },
+    "freeSpinTrigger": {
+        "type": "freeSpinTrigger",
+        "totalFs": 10,
+        "positions": [
+            {
+                "reel": 0,
+                "row": 1
+            },
+            {
+                "reel": 1,
+                "row": 1
+            },
+            {
+                "reel": 2,
+                "row": 4
+            },
+            {
+                "reel": 3,
+                "row": 2
+            },
+            {
+                "reel": 4,
+                "row": 4
+            }
+        ]
+    },
+    "featureStart": {
+        "type": "featureStart",
+        "feature": "epic",
+        "rowsRequired": [
+            1,
+            2,
+            3
+        ],
+        "minChest": 5,
+        "totalFs": 10
+    },
+    "updateFreeSpin": {
+        "type": "updateFreeSpin",
+        "amount": 1,
+        "total": 10
+    },
+    "haloExtraSpins": {
+        "type": "haloExtraSpins",
+        "count": 1,
+        "positions": [
+            {
+                "reel": 1,
+                "row": 3
+            }
+        ],
+        "totalFs": 11
+    },
+    "winInfo": {
+        "type": "winInfo",
+        "totalWin": 30,
+        "wins": [
+            {
+                "symbol": "L1",
+                "clusterSize": 5,
+                "win": 30,
+                "positions": [
+                    {
+                        "reel": 1,
+                        "row": 3
+                    },
+                    {
+                        "reel": 2,
+                        "row": 3
+                    },
+                    {
+                        "reel": 2,
+                        "row": 2
+                    },
+                    {
+                        "reel": 2,
+                        "row": 1
+                    },
+                    {
+                        "reel": 2,
+                        "row": 4
+                    }
+                ],
+                "meta": {
+                    "globalMult": 1,
+                    "clusterMult": 1,
+                    "winWithoutMult": 30,
+                    "overlay": {
+                        "reel": 2,
+                        "row": 3
+                    }
+                }
+            }
+        ]
+    },
+    "updateTumbleWin": {
+        "type": "updateTumbleWin",
+        "amount": 30
+    },
+    "rowsBanked": {
+        "type": "rowsBanked",
+        "newCells": [
+            {
+                "reel": 1,
+                "row": 2
+            },
+            {
+                "reel": 2,
+                "row": 0
+            },
+            {
+                "reel": 2,
+                "row": 1
+            },
+            {
+                "reel": 2,
+                "row": 2
+            },
+            {
+                "reel": 2,
+                "row": 3
+            }
+        ],
+        "banked": [
+            [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            [
+                false,
+                false,
+                true,
+                false,
+                false
+            ],
+            [
+                true,
+                true,
+                true,
+                true,
+                false
+            ],
+            [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            [
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        ]
+    },
+    "chestsUnlocked": {
+        "type": "chestsUnlocked",
+        "reels": [
+            2
+        ],
+        "unlocked": [
+            false,
+            false,
+            true,
+            false,
+            false
+        ]
+    },
+    "tumbleBoard": {
+        "type": "tumbleBoard",
+        "newSymbols": [
+            [],
+            [
+                {
+                    "name": "H4"
+                }
+            ],
+            [
+                {
+                    "name": "L3"
+                },
+                {
+                    "name": "H1"
+                },
+                {
+                    "name": "H1"
+                },
+                {
+                    "name": "H3"
+                }
+            ],
+            [],
+            []
+        ],
+        "explodingSymbols": [
+            {
+                "reel": 1,
+                "row": 3
+            },
+            {
+                "reel": 2,
+                "row": 3
+            },
+            {
+                "reel": 2,
+                "row": 2
+            },
+            {
+                "reel": 2,
+                "row": 1
+            },
+            {
+                "reel": 2,
+                "row": 4
+            }
+        ]
+    },
+    "setWin": {
+        "type": "setWin",
+        "amount": 30,
+        "winLevel": 2
+    },
+    "chestsOpen": {
+        "type": "chestsOpen",
+        "chests": [
+            {
+                "reel": 0,
+                "mult": 5
+            },
+            {
+                "reel": 1,
+                "mult": 5
+            },
+            {
+                "reel": 2,
+                "mult": 6
+            }
+        ],
+        "product": 150,
+        "winBefore": 160,
+        "winAfter": 24000
+    },
+    "freeSpinEnd": {
+        "type": "freeSpinEnd",
+        "amount": 24000,
+        "winLevel": 7
+    },
+    "finalWin": {
+        "type": "finalWin",
+        "amount": 24000
+    },
+    "wincap": {
+        "type": "wincap",
+        "amount": 2500000
+    }
+}

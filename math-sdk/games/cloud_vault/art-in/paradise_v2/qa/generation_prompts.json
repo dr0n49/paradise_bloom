@@ -1,0 +1,212 @@
+{
+  "mode": "built-in image_gen",
+  "style_reference": "paradise_brief_v2.zip/reference/master.png",
+  "common_constraints": "Original ornate polished 2D anime game art. Ivory/gold/rose/mint palette; genuine transparent alpha for objects; opaque backgrounds. No SKY lettering, chests, winged crests/frames, faceted gems, harps, scrolls, chalices, hearts or waterfalls. No code-drawn artwork; technical normalization only.",
+  "prompt_batches": {
+    "symbols_1": [
+      [
+        "H1",
+        "A lavish golden apple of paradise: round recognizable apple silhouette, warm luminous gold skin with fine engraved filigree, two gold-veined filigree leaves and a curved short stem. Clearly an apple, not a gem or heart. Use reference ONLY for rendering style; never depict the woman, jewelry, wings or gems. Rich ornate polished 2D anime game icon, clean dark-brown contour lines, 3-4-tone cel shading with softly painted gradients, intricate gold trim, glossy highlights, golden rimlight, tiny restrained sparkles. Warm cream/gold/peach/rose/mint palette. ONE object only, centered on a genuinely transparent RGBA background, square 512x512 final canvas, silhouette about 80% of canvas with clear empty margins, readable at 64px. No words, labels, numbers, pedestal, frame, background scene or contact sheet. No treasure chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall, religious symbol."
+      ],
+      [
+        "H2",
+        "A split-open pomegranate of paradise: recognizable rounded red fruit with small gold calyx crown, irregular cut front revealing densely packed rounded ruby-red translucent seeds and creamy membranes, ornate fine gold edge trim, two small leaves. Seeds are natural rounded arils, never faceted gemstones. Use reference ONLY for rendering style; never depict the woman, jewelry, wings or gems. Rich ornate polished 2D anime game icon, clean dark-brown contour lines, 3-4-tone cel shading with softly painted gradients, intricate gold trim, glossy highlights, golden rimlight, tiny restrained sparkles. Warm cream/gold/peach/rose/mint palette. ONE object only, centered on a genuinely transparent RGBA background, square 512x512 final canvas, silhouette about 80% of canvas with clear empty margins, readable at 64px. No words, labels, numbers, pedestal, frame, background scene or contact sheet. No treasure chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall, religious symbol."
+      ],
+      [
+        "H3",
+        "A white lily in full bloom: six long pointed curling ivory petals forming a large elegant star/trumpet silhouette in three-quarter view, gold petal edging, golden stamens and pearl dewdrops, a small mint sepal below. Clearly a lily, not lotus, rose or orchid. Use reference ONLY for rendering style; never depict the woman, jewelry, wings or gems. Rich ornate polished 2D anime game icon, clean dark-brown contour lines, 3-4-tone cel shading with softly painted gradients, intricate gold trim, glossy highlights, golden rimlight, tiny restrained sparkles. Warm cream/gold/peach/rose/mint palette. ONE object only, centered on a genuinely transparent RGBA background, square 512x512 final canvas, silhouette about 80% of canvas with clear empty margins, readable at 64px. No words, labels, numbers, pedestal, frame, background scene or contact sheet. No treasure chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall, religious symbol."
+      ]
+    ],
+    "symbols_2": [
+      [
+        "H4",
+        "One exquisite iridescent bird-of-paradise feather angled from bottom-left to top-right, long slender asymmetric tapered feather silhouette with individual fine barbs in teal, mint, gold and rose, elegant gold quill and one small gold ring around the lower quill. No bird attached, no wing, no fan, no multiple feathers. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      ],
+      [
+        "L1",
+        "One lush pink rose blossom viewed directly from above. Recognizable dense spiral of many rose petals forming a circular cupped rosette, rich rose-pink petals with fine gold-edged accents, two discreet mint leaves, glowing dewdrops. It must clearly be a rose, never a lotus or generic five-petal flower. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      ],
+      [
+        "L2",
+        "One elegant violet orchid blossom in front three-quarter view. Five spreading violet/lavender orchid petals and distinctive ruffled magenta labellum, gold-edged petal detailing, ivory and golden throat, small lower mint sepal, clearly asymmetric orchid silhouette, not lotus or lily. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      ],
+      [
+        "L4",
+        "One mint-green four-leaf clover: exactly four separate oval rounded leaves radiating around a central joint, elegant slightly curved thin gold-green stem below, natural mint veins with delicate gold edging and one pearl dewdrop. Four leaves are oval, WITHOUT heart-shaped clefts or heart motifs. Recognizable clover cross silhouette, no jewelry. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      ]
+    ],
+    "major_1": [
+      [
+        "lotus_open",
+        "Create lotus_open.png, square 512x512. Magical fully open lotus on one small fluffy cloud cushion. Broad layered white-to-rose petals with rich gold edges and ornate low mint/gold filigree leaves at its base. Camera front, very slightly elevated, symmetric object centred x=256. Entire silhouette within x=40..472 and y=60..465. Cloud cushion broad and low, x=60..452 y=395..465; flower base anchored at y=395. Brilliant EMPTY smooth pale-gold circular centre at x=256 y=245, large enough for a number, NO stamens, seeds, fruit, lines or objects in the centre. This is the master for three animation states; clear stable cloud/leaf foundation. Reference is ONLY the rendering style and palette, never depict the woman, costume, wings or gems. Rich polished ornate 2D anime game art, clean dark-brown contours, cel shading with soft painted gradients, glossy warm gold highlights and rim light, pearl/ivory/rose/mint palette. Real transparent RGBA background, clean antialiased cutout, empty outer margin, no background rectangle or checkerboard baked in. No people, text, numbers, chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall or religious symbols. One final isolated asset, not a sheet."
+      ],
+      [
+        "board_frame",
+        "Create board_frame.png: final canvas 835x790, ornate rectangular board frame in ivory marble with polished gold inlay, slender blossoming vines and tiny lotus flowers climbing vertical sides, a crown of blossoms and a small oval golden halo in top-centre border. Pure transparent rectangular inner window. Opening boundaries x=71 to764 (exclusive), y=71 to721 (exclusive), width693 height650. Keep all ornament in outer border, never inside opening. Front orthographic rectangular frame, straight inner edges. Thin frame sides around 65px; crown entirely within top71px band. No wings or feather ornaments. Transparent outside too. Design as a rectangular game-board frame, NOT a card, NOT an emblem. Reference is ONLY the rendering style and palette, never depict the woman, costume, wings or gems. Rich polished ornate 2D anime game art, clean dark-brown contours, cel shading with soft painted gradients, glossy warm gold highlights and rim light, pearl/ivory/rose/mint palette. Real transparent RGBA background, clean antialiased cutout, empty outer margin, no background rectangle or checkerboard baked in. No people, text, numbers, chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall or religious symbols. One final isolated asset, not a sheet."
+      ],
+      [
+        "hero_treasure",
+        "Create hero_treasure.png, one large centerpiece 900x800: giant lavish blooming golden lotus overflowing with luminous golden apples and a few naturally rounded golden pomegranate fruits, nestled among layered golden petals and finely engraved golden leaves. Big warm magical light inside, tiny floating rose petals and restrained golden sparkles, rich dark-brown outlines. Lotus petals provide the container; NO manmade box, chest, bowl, chalice or vessel. Low broad magnificent lotus silhouette. Symmetric balanced composition at three-quarter front angle, detailed sculpted botanical ornament. Reference is ONLY the rendering style and palette, never depict the woman, costume, wings or gems. Rich polished ornate 2D anime game art, clean dark-brown contours, cel shading with soft painted gradients, glossy warm gold highlights and rim light, pearl/ivory/rose/mint palette. Real transparent RGBA background, clean antialiased cutout, empty outer margin, no background rectangle or checkerboard baked in. No people, text, numbers, chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall or religious symbols. One final isolated asset, not a sheet."
+      ]
+    ],
+    "major_2": [
+      [
+        "lotus_open",
+        "Create lotus_open.png, square 512x512. Magical fully open lotus on one small fluffy cloud cushion. Broad layered white-to-rose petals with rich gold edges and ornate low mint/gold filigree leaves at its base. Camera front, very slightly elevated, symmetric object centred x=256. Entire silhouette within x=40..472 and y=60..465. Cloud cushion broad and low, x=60..452 y=395..465; flower base anchored at y=395. Brilliant EMPTY smooth pale-gold circular centre at x=256 y=245, large enough for a number, NO stamens, seeds, fruit, lines or objects in the centre. This is the master for three animation states; clear stable cloud/leaf foundation. Reference is ONLY the rendering style and palette, never depict the woman, costume, wings or gems. Rich polished ornate 2D anime game art, clean dark-brown contours, cel shading with soft painted gradients, glossy warm gold highlights and rim light, pearl/ivory/rose/mint palette. Real transparent RGBA background, clean antialiased cutout, empty outer margin, no background rectangle or checkerboard baked in. No people, text, numbers, chest, wings, crest, faceted gems, harp, scroll, chalice, hearts, waterfall or religious symbols. One final isolated asset, not a sheet."
+      ],
+      [
+        "token",
+        "Create token.png, square 256x256, one face-on circular gold blossom medallion, ornate raised relief of a lotus with exactly layered natural petals, carved botanical filigree around rim, polished thick warm-gold metal, subtle ivory highlights and dark-brown contours, cel shaded premium 2D anime game style matching input only as style reference. Perfectly face-on frontal view, centered, isolated with 10% margin on genuine transparent RGBA background. No text, numbers, gems, hearts, wings, chest, religious icon or other objects. Not a pile of coins, one collectible flower token."
+      ],
+      [
+        "total_win_emblem",
+        "Create total_win_emblem.png 900x700, one ornate golden lotus medallion with a large round golden halo behind it, subtle luminous golden sun rays and a few rose blossoms and mint leaves. Rich polished 2D anime game illustration, fine botanical gold filigree, ivory/rose/gold palette, dark-brown outlines, cel shading and glossy rimlight, match input rendering style ONLY, no character. Wide balanced isolated transparent cutout, ample outer margin, real RGBA alpha. No lettering, numbers, ribbons or scrolls, wings, feathers, crest shield, chests, faceted gems, harps, chalices, hearts, waterfalls, religious symbols. The lotus is the central emblem, halo and light rays behind; no human face."
+      ],
+      [
+        "halo_ring",
+        "Create one small delicate oval golden halo ring seen at a slightly elevated frontal angle: empty interior, simple polished torus with a tiny engraved floral flourish, warm gold specular highlights and dark-brown cel-shaded contour, premium 2D anime game art matching reference style ONLY. One ring on true transparent background, centered in a 512x512 square, ring occupies about 55% width and 18% height, no lotus or any other object. Intended as a separate layer floating above an existing pink lotus. No gems, wings, text, heart shapes, background, cast-ground shadow or religious icon."
+      ]
+    ],
+    "batch4": [
+      {
+        "name": "L1",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "One lush pink rose blossom viewed directly from above. Recognizable dense spiral of many rose petals forming a circular cupped rosette, rich rose-pink petals with fine gold-edged accents, two discreet mint leaves, glowing dewdrops. It must clearly be a rose, never a lotus or generic five-petal flower. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      },
+      {
+        "name": "L4",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-a858f257-afc5-457c-9983-c803484ed4d8.png"
+        ],
+        "prompt": "Precise object edit: keep this clover's rendering style, gold edge, mint palette, pearl dewdrop and curved stem, but REPLACE the outlines of all four leaflets with smooth OVAL shapes. Each of exactly four leaflets must have a single convex rounded oval outer tip, NO notch, NO cleft, NO two-lobe heart outline anywhere. Make mint color slightly bluer/softer. Keep clear four-leaf clover silhouette and natural venation, clean dark-brown outlines with gold trim, genuine transparent RGBA, square512x512. One isolated icon with margin, no extra decoration, no letters or numbers."
+      },
+      {
+        "name": "bg_bonus_portrait",
+        "transparent": false,
+        "refs": [
+          "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-49c992de-49de-43bd-854f-a44069d113dc.png",
+          "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-e210415e-0fac-4759-917d-281a5befba2b.png"
+        ],
+        "prompt": "Use image1 as exact portrait composition and garden architecture, image2 as twilight color/light reference. Create bg_bonus_portrait.png1440x2560 (9:16), the SAME portrait paradise garden at rose/violet/gold magical twilight with first stars, golden lanterns hung near outer colonnades and a few floating lanterns, fireflies, enclosed glowing golden pools with lotuses. Preserve image1 layout: marble colonnades on edges, blossoming vines, tree with golden fruits at top-right, huge cloud vista in calm central area, foreground fluffy clouds. Rich polished 2D anime painted game art. Fully opaque. No people, no lettering, no board or UI, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/religious symbols/castles, no waterfalls or falling streams. One portrait image only."
+      },
+      {
+        "name": "logo",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Use case: logo-brand. Produce logo.png1200x500, premium ornate 2D anime game wordmark on genuinely transparent RGBA background. Exactly ONE occurrence of text, spelled letter-for-letter: \"PARADISE BLOOM\". P A R A D I S E [space] B L O O M. Set on a single gently arched line if possible, large legible rich golden serif capitals with a THICK DARK-BROWN outline and deep dark-brown drop shadow. Subtle ivory specular highlights within gold. One small golden halo above, white lily and tiny mint leaves as sparse botanical decoration. Reference only for rendering quality/palette, never reproduce character. Wide horizontal balanced silhouette with empty margins all around. No other text, no duplicate words, no subtitles, no letter fragments, no monograms, no wings/feathers, chests, faceted gems, harps, scrolls, chalices, hearts, waterfalls, religious symbols or background plaque. The logo must read PARADISE BLOOM exactly once."
+      }
+    ],
+    "petals": [
+      [
+        "petal_gold",
+        "Warm glowing GOLD petal, ivory-gold body, honey-gold folded edge. One single small glowing lotus petal for a falling particle, final128x128 square, centered isolated cutout with ample transparent margin. A curved narrow teardrop botanical petal, NOT a heart or gemstone, tapered at one end, soft cupped fold and fine veins with very thin gold edge, tiny luminous highlight. Premium polished 2D anime game illustration matching input's line quality only, fine dark-brown outline and subtle cel shading, genuine transparent RGBA. No other objects, no text/numbers, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/waterfalls/religious symbols, no background scene, no ground shadow. Not a sheet."
+      ],
+      [
+        "petal_rose",
+        "Soft ROSE-PINK petal, pearly pink body, deeper rose fold. One single small glowing lotus petal for a falling particle, final128x128 square, centered isolated cutout with ample transparent margin. A curved narrow teardrop botanical petal, NOT a heart or gemstone, tapered at one end, soft cupped fold and fine veins with very thin gold edge, tiny luminous highlight. Premium polished 2D anime game illustration matching input's line quality only, fine dark-brown outline and subtle cel shading, genuine transparent RGBA. No other objects, no text/numbers, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/waterfalls/religious symbols, no background scene, no ground shadow. Not a sheet."
+      ],
+      [
+        "petal_mint",
+        "Soft MINT petal, luminous pale mint body, teal-green folded edge. One single small glowing lotus petal for a falling particle, final128x128 square, centered isolated cutout with ample transparent margin. A curved narrow teardrop botanical petal, NOT a heart or gemstone, tapered at one end, soft cupped fold and fine veins with very thin gold edge, tiny luminous highlight. Premium polished 2D anime game illustration matching input's line quality only, fine dark-brown outline and subtle cel shading, genuine transparent RGBA. No other objects, no text/numbers, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/waterfalls/religious symbols, no background scene, no ground shadow. Not a sheet."
+      ]
+    ],
+    "final_retry_sequence": [
+      {
+        "name": "L1",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "One lush pink rose blossom viewed directly from above. Recognizable dense spiral of many rose petals forming a circular cupped rosette, rich rose-pink petals with fine gold-edged accents, two discreet mint leaves, glowing dewdrops. It must clearly be a rose, never a lotus or generic five-petal flower. Input image is rendering-style reference only; do not depict the woman, wings or jewelry. Premium ornate polished 2D anime game illustration, confident dark-brown outlines, 3-4 tone cel shading plus soft painted gradients, fine gold trim, glossy highlights and warm rimlight, richly finished small details. One centered isolated icon on truly transparent RGBA, 512x512 square, object occupies about 80% with empty margins on all sides. No text, numbers, UI frame, background scene or contact sheet. No chest, crest, wings, faceted gems, harp, scroll, chalice, heart motifs, waterfall or religious symbols."
+      },
+      {
+        "name": "L4",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-a858f257-afc5-457c-9983-c803484ed4d8.png"
+        ],
+        "prompt": "Precise object edit: keep this clover's rendering style, gold edge, mint palette, pearl dewdrop and curved stem, but REPLACE the outlines of all four leaflets with smooth OVAL shapes. Each of exactly four leaflets must have a single convex rounded oval outer tip, NO notch, NO cleft, NO two-lobe heart outline anywhere. Make mint color slightly bluer/softer. Keep clear four-leaf clover silhouette and natural venation, clean dark-brown outlines with gold trim, genuine transparent RGBA, square512x512. One isolated icon with margin, no extra decoration, no letters or numbers."
+      },
+      {
+        "name": "logo",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Use case: logo-brand. Produce logo.png1200x500, premium ornate 2D anime game wordmark on genuinely transparent RGBA background. Exactly ONE occurrence of text, spelled letter-for-letter: \"PARADISE BLOOM\". P A R A D I S E [space] B L O O M. Set on a single gently arched line if possible, large legible rich golden serif capitals with a THICK DARK-BROWN outline and deep dark-brown drop shadow. Subtle ivory specular highlights within gold. One small golden halo above, white lily and tiny mint leaves as sparse botanical decoration. Reference only for rendering quality/palette, never reproduce character. Wide horizontal balanced silhouette with empty margins all around. No other text, no duplicate words, no subtitles, no letter fragments, no monograms, no wings/feathers, chests, faceted gems, harps, scrolls, chalices, hearts, waterfalls, religious symbols or background plaque. The logo must read PARADISE BLOOM exactly once."
+      },
+      {
+        "name": "total_win_emblem",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Create total_win_emblem.png 900x700, one ornate golden lotus medallion with a large round golden halo behind it, subtle luminous golden sun rays and a few rose blossoms and mint leaves. Rich polished 2D anime game illustration, fine botanical gold filigree, ivory/rose/gold palette, dark-brown outlines, cel shading and glossy rimlight, match input rendering style ONLY, no character. Wide balanced isolated transparent cutout, ample outer margin, real RGBA alpha. No lettering, numbers, ribbons or scrolls, wings, feathers, crest shield, chests, faceted gems, harps, chalices, hearts, waterfalls, religious symbols. The lotus is the central emblem, halo and light rays behind; no human face."
+      },
+      {
+        "name": "halo_ring",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Create one small delicate oval golden halo ring seen at a slightly elevated frontal angle: empty interior, simple polished torus with a tiny engraved floral flourish, warm gold specular highlights and dark-brown cel-shaded contour, premium 2D anime game art matching reference style ONLY. One ring on true transparent background, centered in a 512x512 square, ring occupies about 55% width and 18% height, no lotus or any other object. Intended as a separate layer floating above an existing pink lotus. No gems, wings, text, heart shapes, background, cast-ground shadow or religious icon."
+      },
+      {
+        "name": "petal_rose",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Soft ROSE-PINK petal, pearly pink body, deeper rose fold. One single small glowing lotus petal for a falling particle, final128x128 square, centered isolated cutout with ample transparent margin. A curved narrow teardrop botanical petal, NOT a heart or gemstone, tapered at one end, soft cupped fold and fine veins with very thin gold edge, tiny luminous highlight. Premium polished 2D anime game illustration matching input's line quality only, fine dark-brown outline and subtle cel shading, genuine transparent RGBA. No other objects, no text/numbers, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/waterfalls/religious symbols, no background scene, no ground shadow. Not a sheet."
+      },
+      {
+        "name": "petal_mint",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/brief_v2/reference/master.png"
+        ],
+        "prompt": "Soft MINT petal, luminous pale mint body, teal-green folded edge. One single small glowing lotus petal for a falling particle, final128x128 square, centered isolated cutout with ample transparent margin. A curved narrow teardrop botanical petal, NOT a heart or gemstone, tapered at one end, soft cupped fold and fine veins with very thin gold edge, tiny luminous highlight. Premium polished 2D anime game illustration matching input's line quality only, fine dark-brown outline and subtle cel shading, genuine transparent RGBA. No other objects, no text/numbers, no wings/chests/crests/faceted gems/harps/scrolls/chalices/hearts/waterfalls/religious symbols, no background scene, no ground shadow. Not a sheet."
+      },
+      {
+        "name": "token_edge",
+        "transparent": true,
+        "refs": [
+          "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-634de2f6-8442-4639-ba9e-0b2209a5cc23.png"
+        ],
+        "prompt": "Rotate the exact same gold blossom medallion from reference to an almost EDGE-ON spinning view, vertical coin axis, rotated about78 degrees from face-on. Same raised lotus relief, same engraved floral rim and gold material, thick beveled golden edge visible, narrow elliptical face. One single token, no other objects, no text, numbers, wings, gems, religious symbols or hearts. Premium polished 2D anime game cutout, warm-gold cel shading and dark-brown contours. Real transparent RGBA canvas256x256, keep centered and same apparent coin height, small empty margin. No ground shadow or background."
+      }
+    ],
+    "lotus_open_final_correction": "Precise-object edit of this open lotus. Keep all rendering, overall composition, empty bright circular centre, cloud cushion, gold/mint base leaves, size and position unchanged. Change ONLY the FRONT-CENTRE pink petal immediately below the empty gold circle: its two rounded upper lobes currently form a heart outline. Replace that petal with ONE single broad LANCEOLATE lotus petal with a single pointed top tip, smooth gently convex sides and a pointed lower attachment. NO double lobes, cleft, heart shape or heart decoration. Keep all other petals and the lower gold cloud cushion exactly in place. Rich polished 2D anime art and genuine transparent background, square512x512, no text or numbers. One open lotus, empty bright centre for a number. The floral centre stays empty and smooth.",
+    "lotus_and_cards": [
+      {
+        "name": "lotus_closed",
+        "prompt": "Edit the reference into lotus_closed.png. Replace ONLY the large opened flower above the lower foundation with a CLOSED upright pearl-white lotus bud, tall elegant oval bud silhouette made of overlapping ivory/pale-rose petals with golden edges, calm unlit inside. Bud centred x256, top aroundy50, bottom anchored atx256 y350. Keep the same low cloud cushion, gold/mint leaves and lower front pointed petal foundation unchanged; the bud emerges from that foundation. Keep exactly the same square512x512 canvas, camera, x centre256, lower lotus/leaf base and cloud cushion at their exact locations. Everything below y350 must remain unchanged. Same polished ornate 2D anime style, ivory/rose/gold/mint palette, brown contours, glossy gold petal edging and cloud filigree. Genuine transparent RGBA background. No text, numbers, gems, wings, chests, crest, harps, scrolls, chalices, heart shapes, waterfalls or religious symbols. All petals have a single pointed tip and smooth sides, never a cleft or double-lobed heart outline."
+      },
+      {
+        "name": "lotus_ready",
+        "prompt": "Edit the reference into lotus_ready.png. Replace ONLY the open flower above the lower foundation with the same tall elegant pearl-white CLOSED lotus bud, now glowing strongly warm gold from inside and with its pointed petal tips only slightly parting, tiny golden sparkles near the top. Bud centred x256, top aroundy50, bottom anchored atx256 y350. It is almost closed, NOT a fully open flower. Same closed-bud shape/size as previous described state. Keep low cloud cushion, gold/mint leaves and lower front pointed petal foundation unchanged. Keep exactly the same square512x512 canvas, camera, x centre256, lower lotus/leaf base and cloud cushion at their exact locations. Everything below y350 must remain unchanged. Same polished ornate 2D anime style, ivory/rose/gold/mint palette, brown contours, glossy gold petal edging and cloud filigree. Genuine transparent RGBA background. No text, numbers, gems, wings, chests, crest, harps, scrolls, chalices, heart shapes, waterfalls or religious symbols. All petals have a single pointed tip and smooth sides, never a cleft or double-lobed heart outline."
+      },
+      {
+        "name": "card_lotus",
+        "prompt": "Create card_lotus.png500x400, a wide balanced transparent game start-card illustration: EXACTLY THREE fully open ornate lotuses in one row, central lotus slightly larger and forward, two smaller lotuses flanking it. Use the reference lotus design, white/rose pointed petals with gold edges, large empty glowing gold centres, small cloud cushions, mint/gold filigree leaves. Rich polished 2D anime art with brown contours and cel shading. Ample clear transparent margin, no frame or background panel, no letters or numbers, no people. No heart-shaped petals; every petal has a single pointed tip. No wings/chests/crests/gems/harps/scrolls/chalices/hearts/waterfalls or religious motifs. Three flowers only, not a sheet."
+      },
+      {
+        "name": "card_bonus",
+        "prompt": "Create card_bonus.png500x400, one standalone transparent start-card illustration of a radiant rose-pink and ivory lotus with rich gold-edged single-tip petals, a small floating oval gold halo above and a gentle fan of luminous golden rays behind. A few rose petals drift around. Use reference for rich polished2D anime rendering, botanical detail, cel shading and brown contours. Keep wide balanced vignette composition, no cloud background or frame. No text or numbers, no people, wings, chests, crests, faceted gems, harp, scroll, chalice, heart shapes, waterfalls or religious motifs. Real transparent RGBA and empty outer margin. This is separate newly generated card art, not a recreation of a protected existing symbol."
+      }
+    ],
+    "card_max": "Create card_max.png500x400, transparent standalone start-card illustration derived from this hero lotus. Use same giant blooming golden lotus filled with glowing golden apples and naturally rounded golden fruit, same pink/ivory/gold petals, botanical filigree, clean dark-brown contours, ornate polished 2D anime rendering and warm light. Compose as one wide balanced illustrated vignette with gentle upward golden glow, a few drifting petals and tiny sparkles. Lotus as fruit container, NO manmade chest/bowl/chalice/vessel, no text, people, wings, crest, gems, harp, scroll, hearts, waterfalls or religious motifs. Truly transparent RGBA, no background panel/frame, clear empty margin all around. One final card artwork only, not an atlas or screenshot. Keep fruit and lotus very readable at small size."
+  },
+  "background_brief": {
+    "bg_base": "2560x1440 landscape, paradise garden on huge clouds at golden hour, ivory marble terraces/colonnades and flowering vines, golden-fruit trees, enclosed luminous lotus pools, drifting petals, calm lower-contrast centre for5x5 board. No waterfalls.",
+    "bg_base_portrait": "1440x2560 vertical recomposition of same garden; detailed outer edges, calm central vertical cloud vista.",
+    "bg_bonus": "2560x1440 same landscape architecture at rose/violet/gold twilight; lanterns/fireflies, first stars, glowing lotus pools.",
+    "bg_bonus_portrait": "1440x2560 same portrait architecture with twilight palette/light matched to bonus landscape."
+  }
+}

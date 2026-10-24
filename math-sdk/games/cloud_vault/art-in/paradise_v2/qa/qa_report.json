@@ -1,0 +1,1330 @@
+{
+  "schema_version": 1,
+  "project": "PARADISE BLOOM",
+  "round": 2,
+  "date": "2026-10-21",
+  "complete": false,
+  "status": "INCOMPLETE_SOURCE_ROUND1_UNAVAILABLE",
+  "preserved_files": [],
+  "new_files": [
+    "backgrounds/bg_base.png",
+    "backgrounds/bg_base_portrait.png",
+    "backgrounds/bg_bonus.png",
+    "backgrounds/bg_bonus_portrait.png",
+    "symbols/H1.png",
+    "symbols/H2.png",
+    "symbols/H3.png",
+    "symbols/H4.png",
+    "symbols/L1.png",
+    "symbols/L2.png",
+    "symbols/L4.png",
+    "symbols/halo_ring.png",
+    "lotus/lotus_open.png",
+    "lotus/lotus_closed.png",
+    "lotus/lotus_ready.png",
+    "ui/board_frame.png",
+    "screens/hero_treasure.png",
+    "screens/total_win_emblem.png",
+    "screens/token.png",
+    "screens/token_edge.png",
+    "screens/petal_gold.png",
+    "screens/petal_rose.png",
+    "screens/petal_mint.png",
+    "cards/card_max.png",
+    "cards/card_lotus.png",
+    "cards/card_bonus.png",
+    "logo/logo.png"
+  ],
+  "missing_preserved": [
+    "title_big_win.png",
+    "title_mega_win.png",
+    "title_epic_win.png",
+    "title_max_win.png",
+    "title_total_win.png",
+    "title_free_spins.png",
+    "digit_0.png",
+    "digit_1.png",
+    "digit_2.png",
+    "digit_3.png",
+    "digit_4.png",
+    "digit_5.png",
+    "digit_6.png",
+    "digit_7.png",
+    "digit_8.png",
+    "digit_9.png",
+    "digit/sign assets (original names unavailable)",
+    "rays.png",
+    "cloud_big_1.png",
+    "cloud_big_2.png",
+    "cloud_big_3.png",
+    "banner_plaque.png",
+    "card_frame.png",
+    "symbol_1.png",
+    "symbol_2.png"
+  ],
+  "missing_dependent": [
+    "symbols/L3.png (must be exact saved symbol_2)",
+    "symbols/S.png (must be saved symbol_1 + separate halo)"
+  ],
+  "source_audit": {
+    "chat_id": "6ac43101-6668-83ed-8d59-9831f4b19568",
+    "candidate_archive": "/Users/andriinorenko/Downloads/paradise_assets.zip",
+    "candidate_sha256": "d15e4d83116f40f7dcf63017c8bd8ede6af07c173542192652f5cd89eef43bd2",
+    "candidate_status": "EXCLUDED_REJECTED_V1",
+    "contact_sheet_byte_identical_to_brief_rejected_v1": true,
+    "style_reference": "paradise_brief_v2.zip/reference/master.png",
+    "style_reference_sha256": "b66d7a9073481000f14800eee78ebd48a3788a50ac7d747257ee7f4f03de3c46",
+    "late_round1_original_pngs_accessible": false
+  },
+  "generation": "Built-in image_gen; one asset per call. No code-drawn replacement artwork. Technical export resizing, alpha masks and QA sheets only.",
+  "supersampling_notice": "Final requested pixel sizes are technical exports. Original model dimensions are recorded for every file; backgrounds were upscaled to delivery size.",
+  "lotus_registration": {
+    "shared_base_half_open": [
+      0,
+      350,
+      512,
+      512
+    ],
+    "shared_base_pixel_identical": true,
+    "shared_base_sha256": "fb7bb3524dd9bebd5feae877f39f746e83ce02eb9e76932ad409c5397ffce7e8",
+    "common_canvas": [
+      512,
+      512
+    ],
+    "anchor": [
+      256,
+      420
+    ],
+    "note": "Model-rendered opening states; cloud cushion/lower foundation restored from one generated master for exact registration. Upper petals intentionally change silhouette."
+  },
+  "symbol_checks": {
+    "expected_total": 9,
+    "delivered_primary": 7,
+    "pixel_duplicates": [],
+    "visual_review": "See contact_symbols_64px.jpg. Seven new distinct botanical silhouettes; saved blue flower and pink lotus unavailable."
+  },
+  "automated_export_checks_pass": true,
+  "visual_review": {
+    "status": "completed_for_delivered_assets",
+    "forbidden_motifs": [
+      "SKY lettering",
+      "chests",
+      "winged crests/frames",
+      "faceted gems",
+      "harps",
+      "scrolls",
+      "chalices",
+      "heart decorations",
+      "waterfalls"
+    ],
+    "limitation": "Human/visual review by assistant, not an automated semantic guarantee. Missing Round1 prevents verification of matching its exact palette/detail.",
+    "reviewed_contact_sheets": [
+      "contact_sheet_all.jpg",
+      "contact_backgrounds.jpg",
+      "contact_objects.jpg",
+      "contact_symbols_64px.jpg",
+      "contact_lotus_states.jpg",
+      "frame_on_background.jpg"
+    ],
+    "forbidden_motifs_detected": [],
+    "logo_text_visual": "PARADISE BLOOM",
+    "logo_phrase_occurrences_visual": 1,
+    "card_lotus_flower_count_visual": 3,
+    "human_characters_detected": false,
+    "notes": [
+      "Clover leaf notches and the front open-lotus petal were corrected through image generation; rejected variants excluded.",
+      "The seven new symbols are visually distinct; full nine-symbol comparison awaits original symbol_1 and symbol_2.",
+      "Card bonus is newly generated card artwork; identity match with missing saved symbol_1 is unverified."
+    ]
+  },
+  "files": [
+    {
+      "file": "backgrounds/bg_base.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "b1eb7d5778812dab37ae04e983fd21f88bde9c59b6b7df8d5d03252ddd031dd9"
+      },
+      "export_size": [
+        2560,
+        1440
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-5d202c04-325d-47da-ab4c-95594a832dc1.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "d700bc27d9c2528de0c8631c1772f6fb3b0f7bcbaf4774af408436637b501ce9",
+      "bytes": 5806293,
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 0,
+      "alpha_partial_pixels": 0,
+      "alpha_opaque_pixels": 3686400,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "outer_edges_alpha_zero": false,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "backgrounds/bg_base_portrait.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          940,
+          1672
+        ],
+        "mode": "RGB",
+        "sha256": "b493e8c146d31edf8ab6ac13bfacd1772052836127f0491265bdd49ec130d0d4"
+      },
+      "export_size": [
+        1440,
+        2560
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-49c992de-49de-43bd-854f-a44069d113dc.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "9b5837871faf637ed5b1417a6e03cd5ed95fa65755e59430f7b0f2406a1923c4",
+      "bytes": 5967792,
+      "size": [
+        1440,
+        2560
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 0,
+      "alpha_partial_pixels": 0,
+      "alpha_opaque_pixels": 3686400,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "outer_edges_alpha_zero": false,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "backgrounds/bg_bonus.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1672,
+          940
+        ],
+        "mode": "RGB",
+        "sha256": "f2eb0ef3abac4746420e234254bc6539f58ed3e568f48332bdba6937ca6bad04"
+      },
+      "export_size": [
+        2560,
+        1440
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-e210415e-0fac-4759-917d-281a5befba2b.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "c129b1488d982101ebfa9270cbe4bfdd6641011c1a8c5700f67c8f69e0f810e9",
+      "bytes": 6548220,
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 0,
+      "alpha_partial_pixels": 0,
+      "alpha_opaque_pixels": 3686400,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "outer_edges_alpha_zero": false,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "backgrounds/bg_bonus_portrait.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          941,
+          1672
+        ],
+        "mode": "RGB",
+        "sha256": "e55f3440192aeba1fc662cc2489a9156eae01532670b7d18d3889fba3b1bd10e"
+      },
+      "export_size": [
+        1440,
+        2560
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-9f97200f-0e38-47d8-a432-1ed539e8123c.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "4cd3349f66e677b6be840163068742c63d20b4cdfafb2288149f7144623068b8",
+      "bytes": 6334075,
+      "size": [
+        1440,
+        2560
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 0,
+      "alpha_partial_pixels": 0,
+      "alpha_opaque_pixels": 3686400,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "outer_edges_alpha_zero": false,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/H1.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "a90a31e1470d55b997c2a1afefffdbfd0f83d0e05861c8adad35de4f734e7893"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-f98f542e-c225-4876-8111-a2e44604b371.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "d01a1c00e507053dd3adcf2c40ca9f692f841ee74566222e9ab96023f37db5ff",
+      "bytes": 309416,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 140869,
+      "alpha_partial_pixels": 120050,
+      "alpha_opaque_pixels": 1225,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        42,
+        39,
+        485,
+        476
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/H2.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "a8b95321e412154b7ee44b52d48a8134b939a3e535d477903e7b878a765f774c"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-de7d46e5-bec0-469f-95ce-5e15757c6ce7.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "f1c788f6ed46d5199af5f3922d93c9d3e071e64816561ea63155b7704921b031",
+      "bytes": 324767,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 144210,
+      "alpha_partial_pixels": 116753,
+      "alpha_opaque_pixels": 1181,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        30,
+        38,
+        475,
+        468
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/H3.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "eece9ec2a61194fdbd911517223825a270f1791e870fe8e6deee44ffe918e789"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-b39ecb00-dc14-42d0-bb7e-0b6e1d6ad380.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "436bcc17d6dc37a86c1d560a8981f2f3fbacfc1e49524891e3cc628dedaabbaf",
+      "bytes": 254286,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 158631,
+      "alpha_partial_pixels": 101795,
+      "alpha_opaque_pixels": 1718,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        26,
+        29,
+        485,
+        473
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/H4.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "7c37c7af79c3e4ca2ba1d831312065648bba85056260f58b49f17b2e562ceb2b"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-a6d315bf-b9c8-4d04-a9d0-020f2abab494.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "fad52ba8ada509668520ffbf59eab928326bd4036d7e6a696d9b94402c51acfb",
+      "bytes": 228670,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 188036,
+      "alpha_partial_pixels": 72560,
+      "alpha_opaque_pixels": 1548,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        39,
+        28,
+        485,
+        478
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/L1.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "6d3d5d5a8227ab7f972d6137c4677a294bcf5db5537ebc0389a638e956e2e218"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-2a6d6ad8-cb42-491d-9229-283322ea5fb3.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "4a8675d11d87bfebba5e7db7b3802f98c441989b951aa050423c1e445a44afba",
+      "bytes": 343752,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 122601,
+      "alpha_partial_pixels": 138571,
+      "alpha_opaque_pixels": 972,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        43,
+        26,
+        482,
+        474
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/L2.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "eb20b9d263172df087494d5fb5f7b637b39da87e6c898ecaf2d379d8f03f79b5"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-6995ff6a-8c85-4866-8328-bcf16a6ec607.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "90e0f2aa16d863af9e48e147d8026eaa0559d1d2a7f013f918e8654f1616ba8e",
+      "bytes": 277056,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 159946,
+      "alpha_partial_pixels": 100889,
+      "alpha_opaque_pixels": 1309,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        31,
+        29,
+        486,
+        465
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/L4.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "94a35bf4bfc4ea56eb39354a7ee2ea2b1a1474dbbe1a75b7cd9636ccbc5a9155"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-de3288c9-fcbe-4b51-895c-57b630b8e70a.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "3d4e5bcc355ed092c824963c6a1483bb8c4cc698d0248ce100c45fccf6fb68cd",
+      "bytes": 235185,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 170548,
+      "alpha_partial_pixels": 90150,
+      "alpha_opaque_pixels": 1446,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        75,
+        26,
+        455,
+        467
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "symbols/halo_ring.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "580b4233511ad5dbade243347703a4972e63f4629f5a735d9caec3121e2caae9"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-57769ae1-7577-457f-98e0-b0e78e3283bf.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "79c3b76d9a811e654e6a4bb157278bcc3bdae485cab505810254523d7237cb5e",
+      "bytes": 37265,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 250296,
+      "alpha_partial_pixels": 10867,
+      "alpha_opaque_pixels": 981,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        113,
+        211,
+        399,
+        300
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "lotus/lotus_open.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "ef338ce0afa027656bd6f918f51393f86502712f2fbab6ece48fbe4538c505ff"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-fbc71609-f101-4324-8fc2-9d4613d82c9c.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "ca72794f03b00d0a3d39cf9d2936daf9fd692c690518adb587ba61b7793f1539",
+      "bytes": 382567,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 90169,
+      "alpha_partial_pixels": 170413,
+      "alpha_opaque_pixels": 1562,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        7,
+        13,
+        506,
+        501
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "lotus/lotus_closed.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "6f96e22edaead9c558115fd642bf126df8388d1d5e1957cadcc292d4af28c1c0"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-757f889e-e53f-4d31-9961-d8fe9ecb71cd.png",
+      "postprocess": "technical resize/transparent canvas placement; shared model-rendered lower foundation [0,350,512,512] restored from lotus_open",
+      "sha256": "55c249da5af7cd1a66592f8c88b17e80855f4d2c771c4165b3ba172d57d28d65",
+      "bytes": 294605,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 131803,
+      "alpha_partial_pixels": 128996,
+      "alpha_opaque_pixels": 1345,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        20,
+        17,
+        497,
+        501
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "lotus/lotus_ready.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "e0c4378353ac69fc6b3ae098adc183e8c201784b787add942146e6820f6f141a"
+      },
+      "export_size": [
+        512,
+        512
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-28302518-db3e-4fbe-9e09-cc09cce5f553.png",
+      "postprocess": "technical resize/transparent canvas placement; shared model-rendered lower foundation [0,350,512,512] restored from lotus_open",
+      "sha256": "b042f9902e4118a3a726698f4162bd210f8e81b97a774b7a5b5dcb32e6142982",
+      "bytes": 330917,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 117229,
+      "alpha_partial_pixels": 143676,
+      "alpha_opaque_pixels": 1239,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        20,
+        18,
+        511,
+        501
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "ui/board_frame.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1289,
+          1220
+        ],
+        "mode": "RGBA",
+        "sha256": "7be0e4de6680332df8b9bd56764655442abec3d7ee7691bb9ff7bbbb79b64ac5"
+      },
+      "export_size": [
+        835,
+        790
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-884b722c-1cbc-4615-a49f-4436cefe9576.png",
+      "postprocess": "technical resize/transparent canvas placement; exact alpha window mask [71,764)x[71,721)",
+      "sha256": "82d484f26b09f679c8250fd6ee2229a5bb45607af32611dd01c89ea6ff6dd2d7",
+      "bytes": 358272,
+      "size": [
+        835,
+        790
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 528733,
+      "alpha_partial_pixels": 127747,
+      "alpha_opaque_pixels": 3170,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        3,
+        5,
+        828,
+        778
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true,
+      "window": {
+        "half_open": [
+          71,
+          71,
+          764,
+          721
+        ],
+        "inclusive": [
+          71,
+          71,
+          763,
+          720
+        ],
+        "size": [
+          693,
+          650
+        ],
+        "total_pixels": 450450,
+        "nonzero_alpha_pixels": 0,
+        "pass": true
+      }
+    },
+    {
+      "file": "screens/hero_treasure.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1330,
+          1182
+        ],
+        "mode": "RGBA",
+        "sha256": "320189bfa25359f8b7915e9156604f8364e239cfa95765a241a76a7b312c242f"
+      },
+      "export_size": [
+        900,
+        800
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-63945280-6c77-4fec-acab-957a17efef60.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "5d14732d01c913284935f39187260a3377f1539ebe26cab1568e53bebb6a4432",
+      "bytes": 914851,
+      "size": [
+        900,
+        800
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 358443,
+      "alpha_partial_pixels": 360103,
+      "alpha_opaque_pixels": 1454,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        40,
+        44,
+        860,
+        759
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/total_win_emblem.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1422,
+          1106
+        ],
+        "mode": "RGBA",
+        "sha256": "d9046184a94611070740cc5e53d4e09add5206a5f82b5bde1b95936bc04d71be"
+      },
+      "export_size": [
+        900,
+        700
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-0cf2a294-0d86-4518-ae3b-027a08da2f79.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "b08a1a331c945260f119b1e4f88ee7737048f300a039efd00f16c24c91eb0228",
+      "bytes": 770299,
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 331134,
+      "alpha_partial_pixels": 296236,
+      "alpha_opaque_pixels": 2630,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        42,
+        36,
+        857,
+        665
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/token.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "2aebafde17bb628e447ad6fb2f454a8e8bf0a9da13ce99b8ebbc514e43af5d33"
+      },
+      "export_size": [
+        256,
+        256
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-634de2f6-8442-4639-ba9e-0b2209a5cc23.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "75286b12e484decb587dd7743cd12cbe0620f11d8fe2798129f64091eee89dfe",
+      "bytes": 107911,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 28584,
+      "alpha_partial_pixels": 36462,
+      "alpha_opaque_pixels": 490,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        19,
+        20,
+        243,
+        238
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/token_edge.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "7977f516c6d3191f92c29b7e6d329cc01c3bcccdb1143ec18e541774cbc39a79"
+      },
+      "export_size": [
+        256,
+        256
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-9178437d-53dd-493b-8140-76217680f38a.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "551e9f1db0144300d12259865d0f83d4f110204966537809960443bd7927766b",
+      "bytes": 51552,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 48191,
+      "alpha_partial_pixels": 16945,
+      "alpha_opaque_pixels": 400,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        82,
+        13,
+        175,
+        243
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/petal_gold.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "b2d88fabb615dafd671b39beb85a868af14391278449acc34c422d38f974d98c"
+      },
+      "export_size": [
+        128,
+        128
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-261f546c-bc1e-401e-9303-82bbf05ec579.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "7d8cf96196f0a626873c3400952a94caf3a7ff39d6f0965ea89f0a93e3a8172b",
+      "bytes": 8097,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 13838,
+      "alpha_partial_pixels": 2392,
+      "alpha_opaque_pixels": 154,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        37,
+        27,
+        113,
+        112
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/petal_rose.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "11da6ddb063c8bfcefd90593da5f6bfc39533b134b1907cc328ba88fe1aabf2f"
+      },
+      "export_size": [
+        128,
+        128
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-d9c73c0d-9bcf-432c-839c-71e58b227e8c.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "8cd61043ee575e17ed118458f4539840664f80c58653e268f9e0439ead278d07",
+      "bytes": 8389,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 13476,
+      "alpha_partial_pixels": 2740,
+      "alpha_opaque_pixels": 168,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        24,
+        25,
+        105,
+        104
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "screens/petal_mint.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "9cad0428efce72ef614304c95d9d47cf089429ef004f6b7dce983fa9bbaaea43"
+      },
+      "export_size": [
+        128,
+        128
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-b7d47903-7551-4d0b-886e-417942d1e59f.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "08816062cd9af57af6a9499cc9d44fb938a432ff9a9184ecec81392c125e61c4",
+      "bytes": 8405,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 13727,
+      "alpha_partial_pixels": 2508,
+      "alpha_opaque_pixels": 149,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        32,
+        27,
+        110,
+        102
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "cards/card_max.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1402,
+          1122
+        ],
+        "mode": "RGBA",
+        "sha256": "37c3365bcdaa0c1ce40896d6fedbe86de138ff84e16b269e23dcb53a89dba7fb"
+      },
+      "export_size": [
+        500,
+        400
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-268a4271-51a8-4b64-932e-28041e198958.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "7a8e361a609c1e126ed5d2b415bd7b0337d77265a091ab4d413168f04ffa1eed",
+      "bytes": 295562,
+      "size": [
+        500,
+        400
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 93877,
+      "alpha_partial_pixels": 104607,
+      "alpha_opaque_pixels": 1516,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        29,
+        29,
+        477,
+        369
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "cards/card_lotus.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1402,
+          1122
+        ],
+        "mode": "RGBA",
+        "sha256": "0855dd3ee0a986a09799cd2dac4e46d8abdce7b77cf351382eefbac765304121"
+      },
+      "export_size": [
+        500,
+        400
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-7948ae13-f0e1-46e1-bdf9-88c0d0961c02.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "4680d13f2aee6e85f1a7f11f3b6d84f448e631cfd30f193008cef37420a5e8fd",
+      "bytes": 198690,
+      "size": [
+        500,
+        400
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 125674,
+      "alpha_partial_pixels": 73313,
+      "alpha_opaque_pixels": 1013,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        20,
+        70,
+        480,
+        367
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "cards/card_bonus.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1402,
+          1122
+        ],
+        "mode": "RGBA",
+        "sha256": "4626bc35ec0c9e47d344d3372028552334a73be6e73a54e010576b886290d1d1"
+      },
+      "export_size": [
+        500,
+        400
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-55631805-656f-485c-a479-d0c235c1eef1.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "74aaeff6f84dca499a7d1f7ef8dba3e087f266281de1ae0ce557cbe3fb4de06c",
+      "bytes": 241871,
+      "size": [
+        500,
+        400
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 107430,
+      "alpha_partial_pixels": 90823,
+      "alpha_opaque_pixels": 1747,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        26,
+        21,
+        472,
+        374
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    },
+    {
+      "file": "logo/logo.png",
+      "provenance": "new_image_generation",
+      "original": {
+        "size": [
+          1942,
+          809
+        ],
+        "mode": "RGBA",
+        "sha256": "bd21ec1109b6c8020450e51ef2326721a55fb255739e3802c9d63261f7e0d62a"
+      },
+      "export_size": [
+        1200,
+        500
+      ],
+      "source": "/Users/andriinorenko/.codex/generated_images/01a15e32-f7aa-7c63-b309-d2273710e4c9/exec-edbc5c15-addf-4046-8556-47c7b347343c.png",
+      "postprocess": "technical resize/transparent canvas placement",
+      "sha256": "8541bc03d06ebb95d4802b41c69f6a78db4e4bc77caa6c0c15528a19448bfe80",
+      "bytes": 579147,
+      "size": [
+        1200,
+        500
+      ],
+      "mode": "RGBA",
+      "size_ok": true,
+      "rgba_ok": true,
+      "alpha_zero_pixels": 357047,
+      "alpha_partial_pixels": 240798,
+      "alpha_opaque_pixels": 2155,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox_half_open": [
+        33,
+        25,
+        1166,
+        475
+      ],
+      "outer_edges_alpha_zero": true,
+      "alpha_requirement_ok": true,
+      "pass": true
+    }
+  ],
+  "new_required_round2_files_expected": 28,
+  "new_required_round2_files_delivered": 26,
+  "additional_supporting_files": [
+    "symbols/halo_ring.png"
+  ],
+  "delivery_readiness": "Delivered new assets pass technical checks; full requested merged pack is incomplete because protected Round1 files are missing."
+}

@@ -1,0 +1,121 @@
+{
+  "version": "1.0.22",
+  "cases": [
+    {
+      "name": "back_intro",
+      "duration": 3.200000047683716,
+      "frames": 769,
+      "shortLoops": 4,
+      "minDelta": -0.12499999813736906,
+      "maxDelta": -0.12499999813734064,
+      "rotations": [
+        -0.12499999813735488,
+        -24.124999640509444,
+        -48.1249992828815,
+        -72.12499892525419,
+        -96.12499856762753
+      ],
+      "fullTurnDelta": -0.2999999955296744,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "back_total",
+      "duration": 2.4000000953674316,
+      "frames": 577,
+      "shortLoops": 4,
+      "minDelta": -0.16666666004394415,
+      "maxDelta": -0.16666666004391573,
+      "rotations": [
+        -0.16666666004392863,
+        -24.166665706369614,
+        -48.16666475269525,
+        -72.16666379902088,
+        -96.16666284534739
+      ],
+      "fullTurnDelta": -0.39999998410536364,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "back_big",
+      "duration": 3.200000047683716,
+      "frames": 769,
+      "shortLoops": 4,
+      "minDelta": -0.12499999813736906,
+      "maxDelta": -0.12499999813734064,
+      "rotations": [
+        -0.12499999813735488,
+        -24.124999640509444,
+        -48.1249992828815,
+        -72.12499892525419,
+        -96.12499856762753
+      ],
+      "fullTurnDelta": -0.2999999955296744,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "back_mega",
+      "duration": 2.4000000953674316,
+      "frames": 577,
+      "shortLoops": 4,
+      "minDelta": -0.16666666004394415,
+      "maxDelta": -0.16666666004391573,
+      "rotations": [
+        -0.16666666004392863,
+        -24.166665706369614,
+        -48.16666475269525,
+        -72.16666379902088,
+        -96.16666284534739
+      ],
+      "fullTurnDelta": -0.39999998410536364,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "back_epic",
+      "duration": 2.4000000953674316,
+      "frames": 577,
+      "shortLoops": 4,
+      "minDelta": -0.16666666004394415,
+      "maxDelta": -0.16666666004391573,
+      "rotations": [
+        -0.16666666004392863,
+        -24.166665706369614,
+        -48.16666475269525,
+        -72.16666379902088,
+        -96.16666284534739
+      ],
+      "fullTurnDelta": -0.39999998410536364,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "back_max",
+      "duration": 2,
+      "frames": 480,
+      "shortLoops": 4,
+      "minDelta": -0.20000000000000284,
+      "maxDelta": -0.19999999999998863,
+      "rotations": [
+        -0.2,
+        -24.199999999999974,
+        -48.19999999999989,
+        -72.1999999999998
+      ],
+      "fullTurnDelta": -0.4800000000000182,
+      "pause": "PASS",
+      "worldTransform": "PASS",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "status": "PASS"
+}

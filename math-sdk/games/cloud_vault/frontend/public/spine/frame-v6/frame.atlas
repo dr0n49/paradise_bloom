@@ -1,0 +1,10 @@
+frame.png
+size:1026,754
+filter:Linear,Linear
+pma:true
+beam
+bounds:824,516,200,236
+offsets:0,4,200,240
+frame
+bounds:2,2,820,750
+offsets:8,25,835,790

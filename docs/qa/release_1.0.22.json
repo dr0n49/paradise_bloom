@@ -1,0 +1,17 @@
+{
+  "version": "1.0.22",
+  "frontendTests": {
+    "passed": 115,
+    "files": 11,
+    "cleanInstall": "PASS"
+  },
+  "mathTests": {
+    "passed": 4,
+    "configPathsPortable": "PASS"
+  },
+  "productionBuild": "PASS",
+  "productionBrowserChecks": 6,
+  "continuousRayBackgroundChecks": 6,
+  "secretScan": "PASS",
+  "RTP": "exactly 96% in all eight modes"
+}

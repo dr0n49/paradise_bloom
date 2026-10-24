@@ -1,0 +1,9 @@
+Paradise Bloom — Original Sound v9
+Music: ElevenLabs ElevenMusic music_v2_5, two original instrumental compositions.
+Sound effects: ElevenLabs eleven_text_to_sound_v3, 18 original cues.
+Creative direction and technical mastering: Paradise Bloom.
+Original prompts and generation IDs retained in project delivery outputs/audio_v9.
+Generated using the project owner's ElevenLabs account.
+On 23 October 2026 the project owner confirmed commercial-use rights for the existing ElevenLabs tracks and requested that they remain in the game. This records the owner's confirmation; no independent contract verification was performed.
+Applicable provider terms: https://elevenlabs.io/music-terms .
+No API keys are included in the game or this package.

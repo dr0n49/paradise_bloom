@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-22",
+  "math_version": "0.2.0",
+  "all_modes_rtp_exact": "96/100",
+  "total_lut_rows": 380000,
+  "total_logical_rounds_verified": 380000,
+  "total_unique_rounds_decoded": 220000,
+  "total_logical_events_verified": 13142358,
+  "all_screenshot_2star_checks_pass": true,
+  "all_screenshot_3star_checks_pass": true,
+  "trigger_probabilities": {
+    "base": 0.0036370914000880003,
+    "extra_chance": 0.016404356964329,
+    "super_chance": 0.01938641151231
+  },
+  "trigger_rate_ratios": {
+    "base": 1.0,
+    "extra_chance": 4.510295497092015,
+    "super_chance": 5.330196406898364
+  },
+  "limits_source": "User supplied Engine Studio screenshots 2026-10-22; conservative raw tail probabilities plus both fractional and whole-atom CVaR variants.",
+  "not_certified": "No Engine Studio upload or live game session; unshown criteria and operator bet templates require platform revalidation.",
+  "input_folder": "/Users/andriinorenko/Desktop/cloud_vault_math_0.1.0 2",
+  "input_missing_events": true,
+  "events_source": "/Users/andriinorenko/slot/math-sdk/games/cloud_vault/library/publish_files",
+  "frontend_regression": {
+    "unit_tests": 24,
+    "math_unit_tests": 4,
+    "all_pass": true,
+    "fixture_rounds": 5617,
+    "fixture_events": 350168,
+    "fixture_clusters": 26617,
+    "errors": 0,
+    "browser_ui_tested": false,
+    "note": "Replayed updated local fixtures through the actual player model; UI tools unavailable in this turn."
+  },
+  "source_installed": true,
+  "local_demo_draws_refreshed": true,
+  "backup_directory": "/Users/andriinorenko/Documents/Codex/2026-10-21/referenced-chatgpt-conversation-this-is-an/work/math_v2/before",
+  "archives": {
+    "cloud_vault_math_0.2.0.zip": {
+      "bytes": 308024863,
+      "sha256": "f7e6cc71675ed69a1b6271a86efa17c98590d9aac71e505c0ba9d5364108b6f3",
+      "root_file_count": 17,
+      "crc_ok": true,
+      "every_member_sha256_matches_source": true
+    },
+    "cloud_vault_math_0.2.0_weights_only.zip": {
+      "bytes": 1927741,
+      "sha256": "c0b7f72eb0dad337797a1941e51d65a9e83cb0b50716e8236139d4f41ef5f899",
+      "root_file_count": 9,
+      "crc_ok": true,
+      "every_member_sha256_matches_source": true
+    }
+  }
+}

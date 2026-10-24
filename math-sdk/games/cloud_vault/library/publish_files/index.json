@@ -1,0 +1,52 @@
+{
+    "modes": [
+        {
+            "name": "base",
+            "cost": 1.0,
+            "events": "books_base.jsonl.zst",
+            "weights": "lookUpTable_base_0.csv"
+        },
+        {
+            "name": "extra_chance",
+            "cost": 3.0,
+            "events": "books_extra_chance.jsonl.zst",
+            "weights": "lookUpTable_extra_chance_0.csv"
+        },
+        {
+            "name": "super_chance",
+            "cost": 6.0,
+            "events": "books_super_chance.jsonl.zst",
+            "weights": "lookUpTable_super_chance_0.csv"
+        },
+        {
+            "name": "bonus",
+            "cost": 100.0,
+            "events": "books_bonus.jsonl.zst",
+            "weights": "lookUpTable_bonus_0.csv"
+        },
+        {
+            "name": "raid",
+            "cost": 250.0,
+            "events": "books_raid.jsonl.zst",
+            "weights": "lookUpTable_raid_0.csv"
+        },
+        {
+            "name": "super",
+            "cost": 300.0,
+            "events": "books_super.jsonl.zst",
+            "weights": "lookUpTable_super_0.csv"
+        },
+        {
+            "name": "mystery",
+            "cost": 500.0,
+            "events": "books_mystery.jsonl.zst",
+            "weights": "lookUpTable_mystery_0.csv"
+        },
+        {
+            "name": "storm",
+            "cost": 1000.0,
+            "events": "books_storm.jsonl.zst",
+            "weights": "lookUpTable_storm_0.csv"
+        }
+    ]
+}

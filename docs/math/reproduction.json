@@ -1,0 +1,34 @@
+{
+  "base": {
+    "byte_identical": true,
+    "sha256": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778"
+  },
+  "extra_chance": {
+    "byte_identical": true,
+    "sha256": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572"
+  },
+  "super_chance": {
+    "byte_identical": true,
+    "sha256": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f"
+  },
+  "bonus": {
+    "byte_identical": true,
+    "sha256": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128"
+  },
+  "raid": {
+    "byte_identical": true,
+    "sha256": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b"
+  },
+  "super": {
+    "byte_identical": true,
+    "sha256": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640"
+  },
+  "mystery": {
+    "byte_identical": true,
+    "sha256": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb"
+  },
+  "storm": {
+    "byte_identical": true,
+    "sha256": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f"
+  }
+}

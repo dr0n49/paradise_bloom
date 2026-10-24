@@ -1,0 +1,149 @@
+{
+  "version": "1.0.22",
+  "cases": [
+    {
+      "name": "Exact frame from supplied version 1.0.14: native_1440x900",
+      "status": "PASS",
+      "frame": {
+        "x": 411.03125,
+        "y": 150.296875,
+        "width": 617.9375,
+        "height": 584.625
+      },
+      "board": {
+        "x": 463.546875,
+        "y": 202.84375,
+        "width": 512.15625,
+        "height": 480.28125
+      },
+      "artTransform": "none",
+      "radius": 13.1904,
+      "overflow": "visible",
+      "background": "linear-gradient(rgb(31, 42, 92), rgb(24, 34, 77) 60%, rgb(20, 28, 64))",
+      "firstRadius": "13.1904px",
+      "lastRadius": "13.1904px",
+      "native": {
+        "scale": 0.7401197604790419,
+        "expectedScale": 0.7401197604790419,
+        "cornersInsideMask": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "centerInsideMask": true,
+        "topMiddleInsideMask": true
+      },
+      "viewportOverflow": false
+    },
+    {
+      "name": "Original yellow win amount, outline and shadow restored",
+      "status": "PASS",
+      "color": "rgb(255, 232, 79)",
+      "stroke": "rgb(90, 42, 0)",
+      "shadow": "rgb(90, 42, 0) 0px 3.95712px 0px, rgba(0, 0, 0, 0.5) 0px 0px 13.1904px"
+    },
+    {
+      "name": "Group win labels remain unclipped; one native cascade settles once",
+      "status": "PASS"
+    },
+    {
+      "name": "Exact frame from supplied version 1.0.14: png_1440x900",
+      "status": "PASS",
+      "frame": {
+        "x": 411.03125,
+        "y": 150.296875,
+        "width": 617.9375,
+        "height": 584.625
+      },
+      "board": {
+        "x": 463.546875,
+        "y": 202.84375,
+        "width": 512.15625,
+        "height": 480.28125
+      },
+      "artTransform": "none",
+      "radius": 13.1904,
+      "overflow": "visible",
+      "background": "linear-gradient(rgb(31, 42, 92), rgb(24, 34, 77) 60%, rgb(20, 28, 64))",
+      "firstRadius": "13.1904px",
+      "lastRadius": "13.1904px",
+      "native": null,
+      "viewportOverflow": false
+    },
+    {
+      "name": "Exact frame from supplied version 1.0.14: native_425x812",
+      "status": "PASS",
+      "frame": {
+        "x": -23.375,
+        "y": 208.4375,
+        "width": 471.75,
+        "height": 446.3125
+      },
+      "board": {
+        "x": 16.71875,
+        "y": 248.546875,
+        "width": 391,
+        "height": 366.671875
+      },
+      "artTransform": "none",
+      "radius": 9.435,
+      "overflow": "visible",
+      "background": "linear-gradient(rgb(31, 42, 92), rgb(24, 34, 77) 60%, rgb(20, 28, 64))",
+      "firstRadius": "9.435px",
+      "lastRadius": "9.435px",
+      "native": {
+        "scale": 0.5645569620253165,
+        "expectedScale": 0.5645569620253165,
+        "cornersInsideMask": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "centerInsideMask": true,
+        "topMiddleInsideMask": true
+      },
+      "viewportOverflow": false
+    },
+    {
+      "name": "Exact frame from supplied version 1.0.14: bonus_native",
+      "status": "PASS",
+      "frame": {
+        "x": 396.4765625,
+        "y": 98.390625,
+        "width": 487.046875,
+        "height": 460.796875
+      },
+      "board": {
+        "x": 437.8671875,
+        "y": 139.8125,
+        "width": 403.6875,
+        "height": 378.5625
+      },
+      "artTransform": "none",
+      "radius": 11.7248,
+      "overflow": "visible",
+      "background": "linear-gradient(rgb(31, 42, 92), rgb(24, 34, 77) 60%, rgb(20, 28, 64))",
+      "firstRadius": "11.7248px",
+      "lastRadius": "11.7248px",
+      "native": {
+        "scale": 0.5832335329341317,
+        "expectedScale": 0.5832335329341317,
+        "cornersInsideMask": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "centerInsideMask": true,
+        "topMiddleInsideMask": true
+      },
+      "viewportOverflow": false
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "externalRequests": [],
+  "status": "PASS"
+}

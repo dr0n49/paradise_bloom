@@ -1,0 +1,3035 @@
+{
+  "version": "1.0.22",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 98,
+      "sha256": "5d8026aaebc82bb99ce9d38118142055b0fa4d799a13a339a3e9eb5c409144a8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2153,
+      "sha256": "7b0e3b7b45579aba3fa394e4e61756665ce6bcde14cd055cc58cb2755cf48760"
+    },
+    {
+      "path": "docs/audio/generation_prompts.json",
+      "bytes": 19437,
+      "sha256": "50eb8be1ff4fe53bb6ccc0507c27d1bfeaf3090a6282c23145ab36c480013a75"
+    },
+    {
+      "path": "docs/audio/mastering_qa.json",
+      "bytes": 8414,
+      "sha256": "fe6062327cca5462bfa93ebc7a534939b40cd94d7989c0cb28b46ce26e6c61eb"
+    },
+    {
+      "path": "docs/audio/rights.md",
+      "bytes": 359,
+      "sha256": "81f58ad6b483ec2359e575b74021cc006a1c887393dc96e07980b1140ec2a1da"
+    },
+    {
+      "path": "docs/math/README.md",
+      "bytes": 13769,
+      "sha256": "095b0213da4eef187fb601dadbff0c1b57b858987bae2a82999285a676cae82b"
+    },
+    {
+      "path": "docs/math/comparison.csv",
+      "bytes": 4232,
+      "sha256": "bbf13069ecdfdc056aed7a740d2d301216b23ce89f5685f21fcb1e996c42c277"
+    },
+    {
+      "path": "docs/math/optimizer_report.json",
+      "bytes": 22150,
+      "sha256": "84862461b079c6e71e62245100c41b9cf47e836bb74e1f322fb994c676b8a5cf"
+    },
+    {
+      "path": "docs/math/publish_manifest.json",
+      "bytes": 6589,
+      "sha256": "2985526d414ea56bcec39a2a6e1149f1c970782950a3ed28c068611658211548"
+    },
+    {
+      "path": "docs/math/reproduction.json",
+      "bytes": 1032,
+      "sha256": "0d507df3fe22cf50380d0a2a2a9f256a2a815480698d7eede971100d0b3f5fd8"
+    },
+    {
+      "path": "docs/math/rtp_report.json",
+      "bytes": 15751,
+      "sha256": "b4a00522abd71766960ef07228dc681aa02f924cf3bbdc4bccd9a5457da35864"
+    },
+    {
+      "path": "docs/math/summary.json",
+      "bytes": 2205,
+      "sha256": "65bf935def36239d8dd14189aa18136d8b1e03ff731a68db8b1269ef1b9b6f3f"
+    },
+    {
+      "path": "docs/math/verification.json",
+      "bytes": 35645,
+      "sha256": "5b4fbccb8335dfb0ddcd4eddfacb76383dd8b4d6b90a6ffcee80bd5842c06012"
+    },
+    {
+      "path": "docs/qa/motion_README.md",
+      "bytes": 640,
+      "sha256": "2583d2dafbebaf99b0140db8fba14d2bebb4dbce5440ce5eaa87b10a6c625d12"
+    },
+    {
+      "path": "docs/qa/motion_archive_qa.json",
+      "bytes": 247,
+      "sha256": "e63d14a3168db3ab9231957f18ed12ecc6d943df6828c7b3b3e213ece772cc38"
+    },
+    {
+      "path": "docs/qa/motion_browser_qa.json",
+      "bytes": 3011,
+      "sha256": "c3a16d6a227c859d600fb117c70e4a517e3856e52930780b905ba2fc98431e32"
+    },
+    {
+      "path": "docs/qa/production_browser_qa.json",
+      "bytes": 3971,
+      "sha256": "3922c00eb9de035ab5aa6aa5fd38b269ac04f57c8d28567bda5946da9d01e6de"
+    },
+    {
+      "path": "docs/qa/publish_math_qa.json",
+      "bytes": 1360,
+      "sha256": "ca88ceb95f3196720d6fc89f47ed7f0f22ff331d046e19284a2e50929b5466ef"
+    },
+    {
+      "path": "docs/qa/release_1.0.22.json",
+      "bytes": 353,
+      "sha256": "21824e8d311b2635348452bdad262c2835c718ee223630b24e79344b3952ca0a"
+    },
+    {
+      "path": "math-sdk/LICENSE",
+      "bytes": 1069,
+      "sha256": "4b66c492ce853e329249b45ca688d0417352fd279b981317b16932ba99fb2c7a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/.gitignore",
+      "bytes": 137,
+      "sha256": "29f51858fbabac0d70d5fdc8d160587c2f4225f9481a969378033a47864dacd5"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/README.md",
+      "bytes": 3522,
+      "sha256": "5646d386b0cf4a0630e3f8236f8b7a6e9244f334ca69ba1b2e4d34b57fbefdd0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/backgrounds/bg_base_landscape.png",
+      "bytes": 3187193,
+      "sha256": "44ee62d59a9459eb4540ca17fe1890cb8d150da69752e56696656c4433637f62"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/backgrounds/bg_base_portrait.png",
+      "bytes": 3115899,
+      "sha256": "aba56ed4269c8d7b78971fefc51a5e59194accbcef50b5a0d0b8986297ef3eb8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/backgrounds/bg_bonus_landscape.png",
+      "bytes": 3361197,
+      "sha256": "fbedc11f5a6fb0244c0fd577ae7018ab81fdd666c5ec440407cf4f1bfb87027a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/backgrounds/bg_bonus_portrait.png",
+      "bytes": 998324,
+      "sha256": "ce2c2e070d8a6ccf8e27245a51196e4ee8b9e46faff514eef544cbca442177cd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/bird/bird_body.png",
+      "bytes": 117898,
+      "sha256": "7640a34c4897ddaeedb84a8de967d0b7eabe950d054594a70610ef514961a5b5"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/bird/bird_sit.png",
+      "bytes": 124751,
+      "sha256": "6fd90d005349890355162b5685c58713b43eda07c6f690bebc366044ed58d8c2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/bird/bird_wing_down.png",
+      "bytes": 26721,
+      "sha256": "2dc09e80a8c78bfc7e6678797668279ae263c930166cae5eb2fed3f898b92e89"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/bird/bird_wing_mid.png",
+      "bytes": 23761,
+      "sha256": "cf8d6cc6d7b3239e6e1e3e1c992c8f969fd9e803b83f2f1092eb0daa285693dc"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/bird/bird_wing_up.png",
+      "bytes": 22577,
+      "sha256": "28cc0ecfdf38954998d423b3cc3dccbee98ef9dc6d60e9d4da4d28fe33732942"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/contact_sheet.jpg",
+      "bytes": 1000306,
+      "sha256": "22789b13eaec97320ea684b2318609b762843267e63dcf54a164742a3045b873"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/logo/logo.png",
+      "bytes": 68401,
+      "sha256": "0de8069cdd5733d2cc44bb4a7d99c1f3d205259085c93b30893defe484005e0f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/lotus/lotus_closed.png",
+      "bytes": 59533,
+      "sha256": "9049408151bb8570869aca1b7996f067b9223ac43b815a428ec49d4ef2294757"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/lotus/lotus_open.png",
+      "bytes": 104207,
+      "sha256": "de843bf33f47eabca6adeacb47eb52983d6d340d642a6b9318bb2cb02296ad0d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/lotus/lotus_ready.png",
+      "bytes": 90790,
+      "sha256": "09a6c43faf4229749919b517b738cd880da72c85cb39028892011bbdae7d6446"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/H1.png",
+      "bytes": 153017,
+      "sha256": "23a08570d45380be698f333486228feef42a890c05765e418851876f28abf226"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/H2.png",
+      "bytes": 164480,
+      "sha256": "6657edce391384d2ca6cd7c4173bc7603cdcc6a5b5f0fd6e31fd41e6e8339e1f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/H3.png",
+      "bytes": 168802,
+      "sha256": "940dde2f17abd8a6657584851c10440092c423915c599c5b74912abcbefec597"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/H4.png",
+      "bytes": 148469,
+      "sha256": "0c677f12503ade6bd70bb43bf20b8ee6aa072374341f80050de1d7738badd0d3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/L1.png",
+      "bytes": 97303,
+      "sha256": "506277eb2867feafb22b2a4ecff11895ad4c9246bb222013d1a4ff1f1d5cd76b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/L2.png",
+      "bytes": 93926,
+      "sha256": "30744a8147d1d30619f08bc8f4033c977886939f4c8698ccd3904e89f7dc8290"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/L3.png",
+      "bytes": 95187,
+      "sha256": "3f94c387d53c67a2d0690300403c3d4e091e2db2d0a4d64cef768875b44485c0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/L4.png",
+      "bytes": 96384,
+      "sha256": "4191f5e0c74c573faf0dda921964a3395a580210194ca6ee0a84b7defa8aca71"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise/symbols/S.png",
+      "bytes": 187904,
+      "sha256": "10b18579d666ad242ce50783ead3c339cc37ea201f6fc29b3178aed8e79d5338"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/README.md",
+      "bytes": 10017,
+      "sha256": "0ad15eb1753ddf12f20c1e7942e5d797950aaea2bf49ff0772e1729c60ed1d04"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/backgrounds/bg_base.png",
+      "bytes": 5806293,
+      "sha256": "d700bc27d9c2528de0c8631c1772f6fb3b0f7bcbaf4774af408436637b501ce9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/backgrounds/bg_base_portrait.png",
+      "bytes": 5967792,
+      "sha256": "9b5837871faf637ed5b1417a6e03cd5ed95fa65755e59430f7b0f2406a1923c4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/backgrounds/bg_bonus.png",
+      "bytes": 6548220,
+      "sha256": "c129b1488d982101ebfa9270cbe4bfdd6641011c1a8c5700f67c8f69e0f810e9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/backgrounds/bg_bonus_portrait.png",
+      "bytes": 6334075,
+      "sha256": "4cd3349f66e677b6be840163068742c63d20b4cdfafb2288149f7144623068b8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/cards/card_bonus.png",
+      "bytes": 241871,
+      "sha256": "74aaeff6f84dca499a7d1f7ef8dba3e087f266281de1ae0ce557cbe3fb4de06c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/cards/card_lotus.png",
+      "bytes": 198690,
+      "sha256": "4680d13f2aee6e85f1a7f11f3b6d84f448e631cfd30f193008cef37420a5e8fd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/cards/card_max.png",
+      "bytes": 295562,
+      "sha256": "7a8e361a609c1e126ed5d2b415bd7b0337d77265a091ab4d413168f04ffa1eed"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/logo/logo.png",
+      "bytes": 579147,
+      "sha256": "8541bc03d06ebb95d4802b41c69f6a78db4e4bc77caa6c0c15528a19448bfe80"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/lotus/lotus_closed.png",
+      "bytes": 294605,
+      "sha256": "55c249da5af7cd1a66592f8c88b17e80855f4d2c771c4165b3ba172d57d28d65"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/lotus/lotus_open.png",
+      "bytes": 382567,
+      "sha256": "ca72794f03b00d0a3d39cf9d2936daf9fd692c690518adb587ba61b7793f1539"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/lotus/lotus_ready.png",
+      "bytes": 330917,
+      "sha256": "b042f9902e4118a3a726698f4162bd210f8e81b97a774b7a5b5dcb32e6142982"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/checksums.sha256",
+      "bytes": 3248,
+      "sha256": "f4ed06fcdf9ecfa7cc3705a4777d689eb265d2a8b21fc3f492dd454b1f57c717"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/contact_backgrounds.jpg",
+      "bytes": 372151,
+      "sha256": "26ec47da8b840014e390277aded1c7fd5cb158837dba6985e288c2ffc8e49bc9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/contact_lotus_states.jpg",
+      "bytes": 187392,
+      "sha256": "9b006920d677a8fead78bb29e299d13302386893b65819eafc03d8d24426d4c6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/contact_objects.jpg",
+      "bytes": 645357,
+      "sha256": "0335e06efd54539d4cf9fcd72dbb5388cd597576fcf346e09ff7a14258abad36"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/contact_sheet_all.jpg",
+      "bytes": 698432,
+      "sha256": "5139a9b4a26403f8fe184d4dc7a570fd955320e06401984eb04946adc6abd961"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/contact_symbols_64px.jpg",
+      "bytes": 132673,
+      "sha256": "c2bd5196000fc2a751b466ff3408d85a741f1bbd913d95839cbbfaf179c6c3dd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/frame_on_background.jpg",
+      "bytes": 486528,
+      "sha256": "263e89b6e726451c5bc8058ec1327eda0f3e2110f017c694e9dd53a819b1c0d4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/frame_window_mask.png",
+      "bytes": 2173,
+      "sha256": "dd1110ddd2b7f20dde4117eb17fd3340cca33e6d67371f954d4ace820cd108f2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/generation_prompts.json",
+      "bytes": 35256,
+      "sha256": "6575594effc295cc7629b01adc8e1b75e5ea3bdb2d0fe8e901c122f1a19944b1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/qa/qa_report.json",
+      "bytes": 36345,
+      "sha256": "ab3d7f8288c25183f1f3a2be74c1a62aae3786f3de1cd6715d2c5b6ff11f43c8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/hero_treasure.png",
+      "bytes": 914851,
+      "sha256": "5d14732d01c913284935f39187260a3377f1539ebe26cab1568e53bebb6a4432"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/petal_gold.png",
+      "bytes": 8097,
+      "sha256": "7d8cf96196f0a626873c3400952a94caf3a7ff39d6f0965ea89f0a93e3a8172b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/petal_mint.png",
+      "bytes": 8405,
+      "sha256": "08816062cd9af57af6a9499cc9d44fb938a432ff9a9184ecec81392c125e61c4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/petal_rose.png",
+      "bytes": 8389,
+      "sha256": "8cd61043ee575e17ed118458f4539840664f80c58653e268f9e0439ead278d07"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/token.png",
+      "bytes": 107911,
+      "sha256": "75286b12e484decb587dd7743cd12cbe0620f11d8fe2798129f64091eee89dfe"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/token_edge.png",
+      "bytes": 51552,
+      "sha256": "551e9f1db0144300d12259865d0f83d4f110204966537809960443bd7927766b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/screens/total_win_emblem.png",
+      "bytes": 770299,
+      "sha256": "b08a1a331c945260f119b1e4f88ee7737048f300a039efd00f16c24c91eb0228"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/H1.png",
+      "bytes": 309416,
+      "sha256": "d01a1c00e507053dd3adcf2c40ca9f692f841ee74566222e9ab96023f37db5ff"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/H2.png",
+      "bytes": 324767,
+      "sha256": "f1c788f6ed46d5199af5f3922d93c9d3e071e64816561ea63155b7704921b031"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/H3.png",
+      "bytes": 254286,
+      "sha256": "436bcc17d6dc37a86c1d560a8981f2f3fbacfc1e49524891e3cc628dedaabbaf"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/H4.png",
+      "bytes": 228670,
+      "sha256": "fad52ba8ada509668520ffbf59eab928326bd4036d7e6a696d9b94402c51acfb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/L1.png",
+      "bytes": 343752,
+      "sha256": "4a8675d11d87bfebba5e7db7b3802f98c441989b951aa050423c1e445a44afba"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/L2.png",
+      "bytes": 277056,
+      "sha256": "90e0f2aa16d863af9e48e147d8026eaa0559d1d2a7f013f918e8654f1616ba8e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/L4.png",
+      "bytes": 235185,
+      "sha256": "3d4e5bcc355ed092c824963c6a1483bb8c4cc698d0248ce100c45fccf6fb68cd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/symbols/halo_ring.png",
+      "bytes": 37265,
+      "sha256": "79c3b76d9a811e654e6a4bb157278bcc3bdae485cab505810254523d7237cb5e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/art-in/paradise_v2/ui/board_frame.png",
+      "bytes": 358272,
+      "sha256": "82d484f26b09f679c8250fd6ee2229a5bb45607af32611dd01c89ea6ff6dd2d7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/calibrate.py",
+      "bytes": 5341,
+      "sha256": "ebb838298fd21cfbe0b8830ab64f67c3ed8d0cbd897f36e3ce862af7339aeee5"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/chest_tables.json",
+      "bytes": 1845,
+      "sha256": "44292ed0f3465e810644e8d1bb9ac4d36195b7581ea32971b36ac5a842b95bef"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/chest_tables.py",
+      "bytes": 1187,
+      "sha256": "0c75bad2044f1860c87650ca3c7099c6668075615b0110d8be03c2f3959e33b2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/index.html",
+      "bytes": 1229,
+      "sha256": "6b600a02a8cdaae615917c752e16405c5c3f8e5c2173a52dcf9a46dbfc3e23df"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/package-lock.json",
+      "bytes": 82455,
+      "sha256": "0a0f3dfeed4c2cd26160de3f97310f6a70b477350980c4f3511cee2a25136552"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/package.json",
+      "bytes": 772,
+      "sha256": "c878be2f1756a6d6f519322b212b8e619fc93c5a2e3fab56af88d6215c314428"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/bg.jpg",
+      "bytes": 466225,
+      "sha256": "0b388b2a8d05a0ce2dcd68335138c0063a69499c8b736c3b5ac2e227848d30b1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/bg_portrait.jpg",
+      "bytes": 484752,
+      "sha256": "f0f34f8ca5ead81bb9ad4d31f7f353853c10b9896c458941c9df86dbcd22420a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/bloom/lotus_closed.png",
+      "bytes": 254701,
+      "sha256": "bbacdf4f3b4ba885a17ca7285521991d2fab6b922ec9c7e13ab37386af123bc0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/bloom/lotus_open.png",
+      "bytes": 303375,
+      "sha256": "b720d5bbb58029451fe92fa249191a926314a041e604bc42506dcaf3095cf3ef"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/bloom/lotus_ready.png",
+      "bytes": 271729,
+      "sha256": "f86cab3e770eda0c98c2dd22ceae25dae01956162a10cc48782e2d721803f49a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/chest_closed.png",
+      "bytes": 150642,
+      "sha256": "24e908525a3260164c4ccf3f32d607eb18cd6e796bbe5d7e13753f4fe4fc960e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/chest_open.png",
+      "bytes": 196323,
+      "sha256": "33f07244d60c79bb5b278a1a245a2d6df13fb7bbc334d866f4aca0fd6c766cc4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/frame.png",
+      "bytes": 394587,
+      "sha256": "48113203403ed1ee9e9026ccb7ae7d3e633577107f75e6ebd5a275dbdc995ef4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/frame_v6.png",
+      "bytes": 394587,
+      "sha256": "48113203403ed1ee9e9026ccb7ae7d3e633577107f75e6ebd5a275dbdc995ef4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/frame_v7.png",
+      "bytes": 409734,
+      "sha256": "56a0f1b74a92757ee9f196d2f8b9df4da7f58959aa6f094ce9ec6b80382adde7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/frame_v8.png",
+      "bytes": 465964,
+      "sha256": "a758046ae6b9a47abe25f8194399c3eccb2f08a30690d056664b7dad91f208ee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_bonus_v4.webp",
+      "bytes": 92158,
+      "sha256": "591dd0b84aee49f57b49233f253e036e5f34e6443b0d4163b22c10a2b7c9d572"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_extra_chance_v4.webp",
+      "bytes": 61806,
+      "sha256": "e6eed93e7a59d41226f83b0b1960599f6ea185d689bf45fb5377ba6bd4fdf490"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_mystery_v4.webp",
+      "bytes": 84458,
+      "sha256": "3e0cc40ef21f2ca004c996e426e78dbc1642132d288c5f0bbdc5e947ce1aec00"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_raid_v4.webp",
+      "bytes": 83104,
+      "sha256": "f4e596c093c6646f9c756616d45019d3a59762910a7f761757d8bf7fc1fea7a3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_storm_v4.webp",
+      "bytes": 104662,
+      "sha256": "6496bb4770d111e462a7e0012b32ce9f2c34217888fc97cadbb14a70eab525bd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_super_chance_v4.webp",
+      "bytes": 93422,
+      "sha256": "929c8afb733b7db436e699004e3f19f34ce73e93ec2362d36b6378aa370db076"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/modes/mode_super_v4.webp",
+      "bytes": 113250,
+      "sha256": "365e6f83b782a58448aec1c1e4e4b17e33b1b611300a6e3f4db8087ae808ed37"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/portrait.png",
+      "bytes": 134474,
+      "sha256": "ddf8996fe380b20fbdb8f038c947f0a0156b496e8a67b9ca10f1e7e9006f65f3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/provider/ruby_games.png",
+      "bytes": 411750,
+      "sha256": "546ac64d26dfd2c546cdad7c5d09753d87fa4b30e127d81885dc7b2154f931c7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/banner_plaque.png",
+      "bytes": 421344,
+      "sha256": "0c689f26f221fa3501b83f9828130608378805ee150c8e072d542abfd1b2d22f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/bg_bonus.jpg",
+      "bytes": 547973,
+      "sha256": "633372008082f82d765b6423d24d6fc52d153de93f984cd1bda6ef591539d19d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/bg_bonus_portrait.jpg",
+      "bytes": 532291,
+      "sha256": "5c868683d7d211adaa56be4d076838ffc5a86af0765fbab981d3f5b29f51afba"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/bonus_ruby.png",
+      "bytes": 16901,
+      "sha256": "fa89632b65bcee49424f949eb3945d11c6e8b8ad054ae3f1d2e30aea2d10602d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/card_chest_multis.png",
+      "bytes": 192976,
+      "sha256": "3177fac2b103ee0b48b0b35f75fe9931dd4d4dbdbb6534ab5a19790837ebea30"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/card_epic_bonus.png",
+      "bytes": 237538,
+      "sha256": "7584686d4ee9fc77a62dfd45b359b2e05d11d16d11484ea5daee3d4d3cb50a88"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/card_frame.png",
+      "bytes": 195083,
+      "sha256": "5a1fef0b3df018b1eeda8bea79f4ae33dd54b5675ec9de3868c4469dbf5fea38"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/card_max_win.png",
+      "bytes": 286659,
+      "sha256": "95d1a74f3982107cce3854bf03cbdb9505125bb203dc3c46a048b98da52fe92e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_0.png",
+      "bytes": 31415,
+      "sha256": "e4adc4f6844566fdf538e133fa45b9ce6b4c7b31dddaa58a65d03d78978ee425"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_1.png",
+      "bytes": 19264,
+      "sha256": "bd3db4cc23d217ca18c32d9dbad9a22a35e923a09b8927de327cec37ff953f43"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_2.png",
+      "bytes": 33022,
+      "sha256": "4d85372dc8017c4478a8f11b8b32c890f256b148e75869eef58870aee3ff4eeb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_3.png",
+      "bytes": 33404,
+      "sha256": "ec1419e8d62cc38fd57a57b74f8a1d864d5ddf6f58d0bd224fab77784d763647"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_4.png",
+      "bytes": 28461,
+      "sha256": "e3ff535e27874bc16ae42389c82d27baa0988a7b232b6d020887b961fdb65cd2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_5.png",
+      "bytes": 33947,
+      "sha256": "3a31c14a3818bb870194a3b43aa9d305d4265b25032ee7a383c57de7c04d2732"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_6.png",
+      "bytes": 34911,
+      "sha256": "5cd4138d44d6b9b412038fe66b4c4fe50592ab95489f12f4f79c15fd8455814c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_7.png",
+      "bytes": 25688,
+      "sha256": "c3451f33ac157f810b78f7e341655973805dcf7fbca2fc66fff5361c107c92b8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_8.png",
+      "bytes": 33420,
+      "sha256": "5a5f7ed34ec863fdff9ac053addc07245c8fe5ec1d891a7d0241fb6e005afc3c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_9.png",
+      "bytes": 33375,
+      "sha256": "a5f72e916edfa46cfb6849a92e0c12a33ebacb09823365ad5ea0fac654ca2246"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_comma.png",
+      "bytes": 4486,
+      "sha256": "920e078ec2e1377309d970bc5b85a4933b5a5406a7e98e3a9c66bc2318670356"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_dot.png",
+      "bytes": 2504,
+      "sha256": "045142154384b4ba0698197dc1c6b215d12d23837986a9ba9dbebda606c342d4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/digit_x.png",
+      "bytes": 21815,
+      "sha256": "84ab1b4a4e1c6eecf01a0e4b612b8139d1183832888bdc8d95af63ffc4e453e8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/key.png",
+      "bytes": 129747,
+      "sha256": "004ed4a6ab4cccc00d061ee39ac7432dbf669f377cc9cf093d1b2f70966a2af1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/logo.png",
+      "bytes": 558217,
+      "sha256": "5b00b68fe62e8ffa3c50f09d0c77a4d6fd75ed08d1e3af58ff4d70bf4abbee97"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/ribbon_5x_minimum.png",
+      "bytes": 103696,
+      "sha256": "3390a1cff9cf54bc435bd0a236eca6fd1edc1d5b8350a9ef217197bfbb7543a6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_big_win.png",
+      "bytes": 450920,
+      "sha256": "47d33af19ffd773cac43078dac5182a38ce00cb81d33188bc39794828b43b5f6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_bloom_bonus.png",
+      "bytes": 442711,
+      "sha256": "56a2ab5a6ceba45375d1600e55cfa50f1a1a958504c11fef11545ec151a5c64d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_bloom_epic.png",
+      "bytes": 382582,
+      "sha256": "687fe5b411ca4c9afa98931112b2ad6ce98d4cf437c5861034d4962132dfce12"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_bloom_super.png",
+      "bytes": 444550,
+      "sha256": "decfe192cd0fe0646fc36d87bd9fd2842ae025d4f3e7283d73818b0f2ed45015"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_epic_win.png",
+      "bytes": 483543,
+      "sha256": "fb78ee5f6ad510f7928a3aa105cd1c104d381490f39d209ceb2dac5db0cad4f8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_free_spins.png",
+      "bytes": 297455,
+      "sha256": "5da487eced104e44bd3521f6617d4d818bee77dd65bddbd045e75d5974733cbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_max_win.png",
+      "bytes": 502862,
+      "sha256": "7fa1c933575d5e98289b73098231b467eeeaaf539a31c7071d659585d3e8beb1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_mega_win.png",
+      "bytes": 535308,
+      "sha256": "13cd15e1cce655ecbdd3f0b8b013419e64f7172b26a61f8300b26987f14ddd18"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/title_total_win.png",
+      "bytes": 414725,
+      "sha256": "290f3c20a4a419f606d94df9d1743b5647b77cd54297e467acd335c4c708b66c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/win_lotus_v3.png",
+      "bytes": 743520,
+      "sha256": "241683af9cbb193bd87d52b9f4990258c4b972de66efe4d61ba96dd6d3ed060a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/art/ui/win_tree_v3.png",
+      "bytes": 983779,
+      "sha256": "6fcfb48181a4aef97f055f33249f40416405350e77deb24175948619fb6c6be2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/CREDITS.txt",
+      "bytes": 743,
+      "sha256": "d4c88fe94ba2dcd4f4af3e192d58a16511eaa05121cc6cc1efe8ce446fb51869"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/anticipation_v9.mp3",
+      "bytes": 59948,
+      "sha256": "2afb6f66da4758b6bddbf307417236b1670e5f742eb7b32d4d9f85c36fb8800f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/bank_v9.mp3",
+      "bytes": 20780,
+      "sha256": "c00d7aa8380fafc8f6cd1db1bff152f8338beea143ec96f79d0075d83931c1e4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/bigwin_v9.mp3",
+      "bytes": 106028,
+      "sha256": "c935d1d914b796d55a5f2fb18fd0c8e077d6112429efc70499b83a83071ea800"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/cluster_win_v9.mp3",
+      "bytes": 31148,
+      "sha256": "7bddc3de3e9e9d81e20e295a1e7a524b3727390391eab361ee9da8cca620952f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/extra_spin_v9.mp3",
+      "bytes": 34604,
+      "sha256": "3275f59af2535c1c7d2e5339b40399183d9bfc95780ade68cea1dbbca3152c2c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/feature_v9.mp3",
+      "bytes": 81260,
+      "sha256": "c4cce33fd7f72b7a80859cce8bca1e8544310492626cd6abcf7200a5a6040561"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/land_v9.mp3",
+      "bytes": 8108,
+      "sha256": "9e8f1124cfc1e7f98a5e387cb85f6c2697eb75e9331d961a5a3b8ce415d98889"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/lotus_open_v9.mp3",
+      "bytes": 36332,
+      "sha256": "5bc4fb1bcd29b5e28d106a3167b9a1964b7276a77351ef91a6dc9f0eca127b55"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/maxwin_v9.mp3",
+      "bytes": 145196,
+      "sha256": "a921eceb4f330d8fb44acca3cce01cc308aa1d889356577e2f5ca3cc8d7b660d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/multiply_v9.mp3",
+      "bytes": 46124,
+      "sha256": "251656130ab956d352cff5b320d2752ba9d580962a3a78a98395af9755434ad0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/music_base_v9.mp3",
+      "bytes": 2593772,
+      "sha256": "00e192cc3854e01280a000e415554699ea73b9c25c9a98f0df81da7e8457d1c2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/music_bonus_v9.mp3",
+      "bytes": 2210156,
+      "sha256": "73c0441f7a44cde07f18f6d2a52f6ecf98f661b92bf2336cca1b3bf57a299e2e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/pop_v9.mp3",
+      "bytes": 17900,
+      "sha256": "a1af43944168bb21c22405431189d2bba1802c27bf0ca2ff585f96391fa1bb5d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/scatter_v9.mp3",
+      "bytes": 28268,
+      "sha256": "95c33b502c64855824e2d875b8b5df3fd868c72279573b94d32ce5f4c41d8f44"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/spin_v9.mp3",
+      "bytes": 20780,
+      "sha256": "3b4217ab8482c0e88558509f38addbb7af4c1b3dd5d2ec0a798a01b9c71c1443"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/summary_v9.mp3",
+      "bytes": 100844,
+      "sha256": "2646dd22666a961452cd9b8ed8ada27628caedbf9233a21a21c4a3012a389535"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/transition_v9.mp3",
+      "bytes": 31148,
+      "sha256": "2c976a02b91f37a45d3066d53c7d97cdf553b6b7e1e15045fe4c1018b6c7897e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/trigger_v9.mp3",
+      "bytes": 63404,
+      "sha256": "06562058ba7029842e2b152f85eb1896f2a90b9f490ce83c3bc9f77b8dc4a648"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/ui_click_v9.mp3",
+      "bytes": 7532,
+      "sha256": "75779038f5adf3529304f35bbc153560fb4a24327b5486d12fb39f5ef1136f51"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/audio/v9/unlock_v9.mp3",
+      "bytes": 32300,
+      "sha256": "680e4daf82c9240fb32e2b30735f82caa365eb2ef0746167bb8ce9ed6572c23c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/character/char.png",
+      "bytes": 1876775,
+      "sha256": "852667b0bf36e169b5d2087dcb6ef06bce9ba968cef2697c0002137fb4ee499c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/character/char_painterly.png",
+      "bytes": 2151368,
+      "sha256": "e41537b911ee0ad79743830c6b5596e0097210324dc808daa5855ea42f9a4523"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_base.json",
+      "bytes": 10575671,
+      "sha256": "19b1714bc6f15e92376a6400ab92ca9f2da7d0af49565fd46314fac5394e0736"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_bonus.json",
+      "bytes": 8459727,
+      "sha256": "90b843e5bcbdeda052bd61b4cfa9dd6c4578482d17aa440f9a99b40d05706fc2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_extra_chance.json",
+      "bytes": 10577274,
+      "sha256": "41e9df87b6d2ae2b181ea1f6fe18c0a3c1fdec8c363106a028ff4594fcd47e4c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_mystery.json",
+      "bytes": 19112980,
+      "sha256": "eff15235ba0106fab9fcdd8ff090ed3d4f765c1e7308b9637ea0429ce8464283"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_raid.json",
+      "bytes": 1382519,
+      "sha256": "e18907e1278f560833c8bd8dfacff5478104192ad2a4caccac829dfe4fae8197"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_storm.json",
+      "bytes": 4324805,
+      "sha256": "0159e5565531fb53d734c9d3bf9bd633a2c3729790941e5fa8203e17b4405b09"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_super.json",
+      "bytes": 9361735,
+      "sha256": "480cfd49114b412617db2ea70b43b7f4fb8c7d251760a242c3c36f90aacceb42"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/demo/books_super_chance.json",
+      "bytes": 10643409,
+      "sha256": "b9c7e6185e7032d8979cdc3de4b0ec76221d68e321a6763564726cf72d7c2eb0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-ar.txt",
+      "bytes": 4382,
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-hi.txt",
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-ja.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-ko.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-vi.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/OFL-zh.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/README.txt",
+      "bytes": 459,
+      "sha256": "621f2ab375291c4a44fa6a5f80cb44b28f86c2935b917c049b075ff51e677a11"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/ar.woff2",
+      "bytes": 45760,
+      "sha256": "1d0751f0d9715401018c0da4efb6a4155c7f92c691f7c1f50dd60a6b8b982ba0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/fonts.css",
+      "bytes": 905,
+      "sha256": "7b915549d386bab5d92e0fd33ccb1f87ea3c7bab39dc8ca397507f63df4fbc7b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/hi.woff2",
+      "bytes": 86492,
+      "sha256": "721fb28d2643c2de2118c284b3ab391ab2043390035534cec4c7c53d8278e6e4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/ja.woff2",
+      "bytes": 131876,
+      "sha256": "e312a6a223d891cde00234025db4848720bc391621541344ae2c63787aaab52b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/ko.woff2",
+      "bytes": 45520,
+      "sha256": "839bac42fc368c8879ce3cfa6f06a7cfaa9094712e1528fc8f93b58b86720f00"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/vi.woff2",
+      "bytes": 38076,
+      "sha256": "c7f162c24e848c98a12bf14efd88c6b2084eece7d3c627b5365a8835e3cfbb40"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fonts/ui/zh.woff2",
+      "bytes": 98500,
+      "sha256": "ce75ec9da702f0a0debf966a059a88775cfe60557ab8a3ed703e5b3ec88ea8a3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/beam.png",
+      "bytes": 17671,
+      "sha256": "7ccd2e810de90be9df92882f155d50c6f831777277995111a6784a97e75b7f97"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/cloud1.png",
+      "bytes": 11316,
+      "sha256": "615a8e07772eed99c69e0ac6c2c20da08ce36faecbf889e90af9ff92f02dcb4e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/cloud2.png",
+      "bytes": 10408,
+      "sha256": "703a6c7679aeddf03313cc49fd12fa6f7f8c65fc222e61082ed9443bb3090357"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/cloud3.png",
+      "bytes": 10226,
+      "sha256": "2b26f294e1283139f98d9bff4378a533702493cb68bf27240eb904f089aa38ea"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/cloud4.png",
+      "bytes": 9900,
+      "sha256": "fdeaf9b3d2e1ea51eabf779e46e868c6847eebfde976fdcffe04a45150317a0c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/cloud5.png",
+      "bytes": 10594,
+      "sha256": "af84750b851f871aa5a1b2f716a07979dc49447b7d92e57ff12a77af0c291db2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/glow.png",
+      "bytes": 19722,
+      "sha256": "23090353904afb954d2cf1f93b18d8d9e6e89e04924bad0eb877db16a636592c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/reference_cloud/puff_bottom.png",
+      "bytes": 9843,
+      "sha256": "f6aa13123bc8ce1c2ffdacf1fc73b74639089fab52cf9224f8d59caf8e4dae6b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/reference_cloud/puff_center.png",
+      "bytes": 10421,
+      "sha256": "ea7277424fdbb73ea67afaf372978cb09cb99a41d11c5ae51ec69914ae849e17"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/reference_cloud/puff_side_a.png",
+      "bytes": 9564,
+      "sha256": "b5ea8c2ed09b42a252ff5d4b41b2468dd17c2b4e4363e761c20ba474c6c371cc"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/reference_cloud/puff_side_b.png",
+      "bytes": 9394,
+      "sha256": "f7365e0a0e9f46394d525aa119ff8603bb833de6f9dbdfa58bb4a3f74fdd7726"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/reference_cloud/puff_top.png",
+      "bytes": 9085,
+      "sha256": "6cdcab1e20f93e5fac6b1260b6d3bb3fc8f8ec75af4c3c733c336d9c952b21af"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/fx/ring.png",
+      "bytes": 15935,
+      "sha256": "e4b847407138de989ed9f1f98c6c9b8c7136339d5bcb80093b9b4b97c216703b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/character/character.atlas",
+      "bytes": 364,
+      "sha256": "69c343bd5caf363dea5377a9ac18596512036eef75db5dcf94485fa68edef153"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/character/character.json",
+      "bytes": 568959,
+      "sha256": "bd192bf41bbe3c221a96bb9f73467dc0ec51989ff28d003f76af67de9ba6b3dd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/character/character.png",
+      "bytes": 2188002,
+      "sha256": "a17e296a15a51ae8eae7ceac8db46159152173073b02a06a5b5df370dfb6ace3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/character/character_painterly.atlas",
+      "bytes": 445,
+      "sha256": "238745b907ac99ebc9145b057d27917638c375c0d9ed7ac0f82cad809186b20a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/character/character_painterly.png",
+      "bytes": 1926963,
+      "sha256": "ef85dfed7296b8e69495560ad3443924c4c9adb73129936df77f1f00b429b742"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/chest/chest.atlas",
+      "bytes": 273,
+      "sha256": "32bc522c4a4309b5084ded7824f72934148e534aafa7d87a13c943625b299cdf"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/chest/chest.json",
+      "bytes": 2664,
+      "sha256": "5d6a53cbb9b40ce75bc2bc4a78f30d14681e81e0c2158c87207321eed39171a0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/chest/chest.png",
+      "bytes": 553805,
+      "sha256": "2772db33552392635f424e3fb8e616edc674ef04a068f754cad8469cfe4ace2a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v6/frame.atlas",
+      "bytes": 148,
+      "sha256": "7a6c45bfe60226cc9f4266661192c2561b7feb3d7f9e58e8cc4007af0d9d734c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v6/frame.json",
+      "bytes": 1280,
+      "sha256": "8899d95c0515d3de23ae96297798cbee6d8967d11a719a5f5f718e35d815c507"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v6/frame.png",
+      "bytes": 477121,
+      "sha256": "220a694c466e1950eebdd9e18e63a5d0d6d60bc960f7355368a1b6676848d02a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v7/beam.png",
+      "bytes": 477121,
+      "sha256": "220a694c466e1950eebdd9e18e63a5d0d6d60bc960f7355368a1b6676848d02a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v7/frame.atlas",
+      "bytes": 181,
+      "sha256": "dab4a39184b749564c43fdca2ed5ba535f4379437185f638df7f67faed451a90"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v7/frame.json",
+      "bytes": 1280,
+      "sha256": "e3502efbeadc731fc4740f472b7c13a8a0710c589470f3720fa303debacc94b4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v7/frame.png",
+      "bytes": 409734,
+      "sha256": "56a0f1b74a92757ee9f196d2f8b9df4da7f58959aa6f094ce9ec6b80382adde7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v8/beam.png",
+      "bytes": 477121,
+      "sha256": "220a694c466e1950eebdd9e18e63a5d0d6d60bc960f7355368a1b6676848d02a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v8/frame.atlas",
+      "bytes": 181,
+      "sha256": "dab4a39184b749564c43fdca2ed5ba535f4379437185f638df7f67faed451a90"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v8/frame.json",
+      "bytes": 1280,
+      "sha256": "e3502efbeadc731fc4740f472b7c13a8a0710c589470f3720fa303debacc94b4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame-v8/frame.png",
+      "bytes": 465964,
+      "sha256": "a758046ae6b9a47abe25f8194399c3eccb2f08a30690d056664b7dad91f208ee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame/frame.atlas",
+      "bytes": 148,
+      "sha256": "7a6c45bfe60226cc9f4266661192c2561b7feb3d7f9e58e8cc4007af0d9d734c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame/frame.json",
+      "bytes": 1280,
+      "sha256": "8899d95c0515d3de23ae96297798cbee6d8967d11a719a5f5f718e35d815c507"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/frame/frame.png",
+      "bytes": 477121,
+      "sha256": "220a694c466e1950eebdd9e18e63a5d0d6d60bc960f7355368a1b6676848d02a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens-v10/screens.atlas",
+      "bytes": 1651,
+      "sha256": "ef2b64694371e16414322591abd5c97eef8fcd8e958f942ac46f553200246d13"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens-v10/screens.json",
+      "bytes": 149030,
+      "sha256": "bb4e2d5d8f3faf14296d671bd46435aae8614c91ab567154ada9a691572ad206"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens-v10/screens.png",
+      "bytes": 5699292,
+      "sha256": "577d1c7187d6746c914bc7ef8f14b5eca12f2868fa6ee606666909da2c250bf4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens/screens.atlas",
+      "bytes": 1651,
+      "sha256": "ef2b64694371e16414322591abd5c97eef8fcd8e958f942ac46f553200246d13"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens/screens.json",
+      "bytes": 149030,
+      "sha256": "bb4e2d5d8f3faf14296d671bd46435aae8614c91ab567154ada9a691572ad206"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/screens/screens.png",
+      "bytes": 5699292,
+      "sha256": "577d1c7187d6746c914bc7ef8f14b5eca12f2868fa6ee606666909da2c250bf4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/cloud_v16.png",
+      "bytes": 132579,
+      "sha256": "bbdedf7bc83cb14132d0dd16859d93c25bb4d5a5ba9ec529fe6ad52d4f69ab9a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/clouds_reference_v17.png",
+      "bytes": 48589,
+      "sha256": "e6daad872e965edc3c43f238bf8e8a55143f4f0d0f0e1d993be891b96e042c9c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols.atlas",
+      "bytes": 1123,
+      "sha256": "a5378f26b3a832abff0d318f8b060c24ac2df3c33b273aa867f6804216f3c82a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols.json",
+      "bytes": 268407,
+      "sha256": "45dcb210d5837f6578ce0d9a58088fd98eed08e571d589cc74f1131dd567f728"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols.png",
+      "bytes": 3505141,
+      "sha256": "e2976b233b3307f95af2f6cd42ea8fdd00ed002be029104988a4102ba54ee45b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols_bloom_v3.png",
+      "bytes": 2253071,
+      "sha256": "62fd25a68349a5bb7c80caf53e78724029ddf5a9c3cd074dcf283e43daca7761"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols_v16.atlas",
+      "bytes": 1030,
+      "sha256": "99f4d09521d5a739736b10c57742b5510fe60cf0d2ae4de7d12aa45abb91184d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols_v16.json",
+      "bytes": 256632,
+      "sha256": "10daf44fc13f44bf855718985a695d4d764719a0f55e073068371090cf935d69"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols_v17.atlas",
+      "bytes": 1051,
+      "sha256": "07c3c370198cf667df3992d46d85f5d1244436224b6dca317a41487d1036c258"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/spine/symbols/symbols_v17.json",
+      "bytes": 267092,
+      "sha256": "41bf2e945dcf015453a0c321c8b28505490ca25fff83e7e7ae39bc02f58d2919"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/H1.png",
+      "bytes": 246889,
+      "sha256": "5e0ad01d91e44ccfcb44aac4e068412e0fdecb30d904c52d0bd1f01ddaf6f614"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/H2.png",
+      "bytes": 281708,
+      "sha256": "08421529d75b2263bb5cf9a26480680f8aeed8440dc20b9115beca56ad863b15"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/H3.png",
+      "bytes": 203194,
+      "sha256": "6b035605a86f9b620611421caee26b04832d9c4193a3793907d0b9f454276e68"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/H4.png",
+      "bytes": 173836,
+      "sha256": "72e3e0b8936ed24791051fd22e8a3bba216a68ffc5a6012eea2e7d9aa954c463"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/L1.png",
+      "bytes": 268012,
+      "sha256": "7f8c98959950b88011208b050de02da64265ee0fb52b0f3ab201ae4fa2208071"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/L2.png",
+      "bytes": 250217,
+      "sha256": "ef26471fbe8f0da28db6019de7e52e8978d13e8f33b21e8bbcc325ccb46bfe40"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/L3.png",
+      "bytes": 206816,
+      "sha256": "37f80f7d62e15485c55634dc3fda4f9326f469df2e2f8a76a01866b418bf5a3e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/L4.png",
+      "bytes": 257672,
+      "sha256": "7b80c6c9c3d7c8d98ad855ce40f2b08dc5b4475d93bb58ff19cede375e8a6c22"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/public/symbols/S.png",
+      "bytes": 315525,
+      "sha256": "e43da40f195a8f545703e9689dcdeeedf93b31d66bb68c0e8029a5854cbd6268"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/scripts/demo-books.mjs",
+      "bytes": 3672,
+      "sha256": "b94ee9ecee9d55c3aec7f056fb422d4a9a9630a948f77fa34a2cb9f2f4685117"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/scripts/release.mjs",
+      "bytes": 1150,
+      "sha256": "476d317f8761382eaf85dc96b3b6051da8ecc35b721baf47deeab88ceb2280ad"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/scripts/spine-export.sh",
+      "bytes": 1193,
+      "sha256": "619aa11435a8bb0edf29425664215902f943250d8911bedfbc6fbaf38aba181c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/App.tsx",
+      "bytes": 27559,
+      "sha256": "7eda5122dfc7e44251cb6335a7f22d383275dd51b79fbea53c6fa18fa2ac9d10"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/art/AutoplayIcon.tsx",
+      "bytes": 432,
+      "sha256": "2e879de65c036040df023f6e3b67d6660b5aa073c19d2737600b200df4067634"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/art/Symbols.tsx",
+      "bytes": 11493,
+      "sha256": "46648f38e10c7dc9886bda56c517c85cca11c4c1df9af99235e02327e067f154"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/components/Board.tsx",
+      "bytes": 6190,
+      "sha256": "586922e4fdef25e8abc9afa5c6783ece3d5c3ae43b27e036c97a1a31834621af"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/components/Overlays.tsx",
+      "bytes": 16269,
+      "sha256": "88d4a1fbdbcbb8fce4ec378ef2dabfa61355f85563983bf2cee3b793b31055bc"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/components/ProviderIntro.tsx",
+      "bytes": 1918,
+      "sha256": "d50fe8e5b40e897bfe6199250cc2b33bcc5638c66762ebb81381c38d975f2db8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/components/Splash.tsx",
+      "bytes": 2818,
+      "sha256": "73536edd65bc949736d10ce615fea7e6d51fb3accaaa0a19ff537de35e113884"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/components/WinAmount.tsx",
+      "bytes": 1039,
+      "sha256": "eb646105f3694df8b84056a586151e9cce7436a88649d680a6454cb115e303e4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/audioSettings.test.ts",
+      "bytes": 1871,
+      "sha256": "512d63009fa6439e85442c41d37d2592f355de419023dbf90deb77d14960b67b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/audioSettings.ts",
+      "bytes": 1627,
+      "sha256": "22d95041efb14f32e7dc8c765e7364eee7a6a5f7e6474ba570e834d748a0e9f8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/board.test.ts",
+      "bytes": 1442,
+      "sha256": "02913fbdc71db34f8e52e1330ca1b5c9e39cbe5e0926945b14ed6075ac2b6e6e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/board.ts",
+      "bytes": 4195,
+      "sha256": "63d191d7bffd2bb3e109002249a33aa9a139997011c7189dc76a79d879fb0bdd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/currency.test.ts",
+      "bytes": 527,
+      "sha256": "c67cc23fbe6ac84fe76e7bd21745ce83c30eaeabdd4ee438859f211d04798eff"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/currency.ts",
+      "bytes": 2176,
+      "sha256": "221fbf035f9ad09e480ddebb6ff389bb9011701a455f3f6aedc2c53047042afa"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/demo.test.ts",
+      "bytes": 767,
+      "sha256": "bacba1a5ed154fc20c9831f2d76fbb72bdbd6a493280ceeb5bde128b428cf2a8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/demo.ts",
+      "bytes": 2005,
+      "sha256": "82e6b0516c2f12e6464f4f9a8535f2cc12c3c6c949b83d434726839ac32c465b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/disclaimer.ts",
+      "bytes": 594,
+      "sha256": "360a8920ce461c93b84f438b6a00890abdbb6966d42d975fdb4661dec550e0c4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/modes.ts",
+      "bytes": 1671,
+      "sha256": "899a88c0db2dbde78473e6018637b3ae660a4f1f683201c3587f9912ed04a907"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/player.test.ts",
+      "bytes": 6323,
+      "sha256": "dc26ec3d5e042720a0f4b6bf2e2fa932c3ddc78fcee8ac91483dd8a1252b8a5a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/player.ts",
+      "bytes": 12369,
+      "sha256": "a46ac95d9b658e72eafafa491f07730ab3cf23fc9cdd6341d8195630df01b97e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/preload.test.ts",
+      "bytes": 2288,
+      "sha256": "3fbc99bf92375946cfa2b57ac0727f280ef1843d53958c6f78a0be07d7f1f334"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/preload.ts",
+      "bytes": 2309,
+      "sha256": "e16558c92831c7d2c0ec7ce692bd44b6d403003ad2d49c1a80b428ce03e7a7e2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/presentation.test.ts",
+      "bytes": 3025,
+      "sha256": "c9969961c80e3ad20155c370a962f89cdfda81d21af5a63aaafc6e9c4f5d777c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/presentation.ts",
+      "bytes": 797,
+      "sha256": "4d751a017b7afd4ab9baa0c87ef4e4135d26a3e6d5c87d3832e1458eddc9b75c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/reveal.test.ts",
+      "bytes": 6870,
+      "sha256": "be3eabbe90ac0228f4b4d116ae87ff5324a59d6a0d787bd4456ac2c1c9e5cbb3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/reveal.ts",
+      "bytes": 2178,
+      "sha256": "17e9692e68188b05a48c2f24451dd5ea3803cc8d99212b654d51ff277e94211d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/rgs.test.ts",
+      "bytes": 4984,
+      "sha256": "3e157f4093e255def7157f9aba2ea55bf456a9d99342ba8dabbb4738b1a71749"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/rgs.ts",
+      "bytes": 8153,
+      "sha256": "82ab2bf00d5d54da9177f5234e1000c464a98e37b35e00359c255b0bc30dd98f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/game/sound.ts",
+      "bytes": 9925,
+      "sha256": "f914ba2c7690e93f182addaf0e9977c0ea8f54bd8879115f9cfd44f86f87c224"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/i18n.test.ts",
+      "bytes": 5656,
+      "sha256": "9f791f6c0637061a18b5e7805216ab0d06ac63540461726baa114ad813ffc164"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/i18n.ts",
+      "bytes": 25363,
+      "sha256": "d844ad781f5bf0e91b58111213242682c83d27154517b294c282c892c9982b33"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/locales.ts",
+      "bytes": 134361,
+      "sha256": "e829649ebc806fc1f1e75283114c2d2c2e71cad96b073b1ab437571ace9614ed"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/main.tsx",
+      "bytes": 725,
+      "sha256": "eb0d88574749041fde366a358eb3d68c8d8cbf0aaf6dec96cc731465bc4cccab"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/qa/CharacterQA.tsx",
+      "bytes": 4035,
+      "sha256": "88dfab65c647fc5ff20002ca2d9ed67dbe8b3b16ca76dcd42bef01c6642b1e4e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/spine/SpineBoard.tsx",
+      "bytes": 10845,
+      "sha256": "aa3730b148a219e2466353e35e3404364a164f581a21b55064e2141622372d8f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/spine/SpineCharacter.tsx",
+      "bytes": 6188,
+      "sha256": "0ea6da29199a156ee005bbf44f824c447c7134cce4d3ef4f3489cce25fc30ce0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/spine/SpineScreens.tsx",
+      "bytes": 6286,
+      "sha256": "d876330013052f03a68c11e90e1dee25f377b601654a909db5dfeb0e5548cb31"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/spine/runtime.test.ts",
+      "bytes": 3568,
+      "sha256": "67b8c57b6c9ffecacc460995f2816976b42a1d423f07eba5b68c238bc517c15c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/spine/runtime.ts",
+      "bytes": 4388,
+      "sha256": "d88d68f576a20b5d1c6adf04db57f9eb28c3be8ea8359db39098e1e0390bf81c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/src/styles.css",
+      "bytes": 70657,
+      "sha256": "22507f6cfe6f270b7493786b1ca9b461e00a6cc46a7685d10107d1f738594fd5"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/tsconfig.json",
+      "bytes": 505,
+      "sha256": "6466283f2ba22424ebc1b5fb985db0f06e9504bdaa7bc2d73fe60497680bebf8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/vite.config.ts",
+      "bytes": 286,
+      "sha256": "d3d8aa936aab37e7024d87a41fefd6d101b478baf8961fc7a927f7995650c524"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/frontend/vitest.config.ts",
+      "bytes": 190,
+      "sha256": "5a9812f25968dcc710589f6a639e3f0576a3e6687c8c0eba85ce5342d0c293fe"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/game_config.py",
+      "bytes": 6143,
+      "sha256": "2dc3019e6a2ca62ee5f6bfd5666618c0ece5fe79a6de5d53dd7947f2bc9d2ffe"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/game_events.py",
+      "bytes": 2007,
+      "sha256": "1a9196b0bce2e03ed4edf9e3e2022c9a83c2e42a347e7bac4ba1a6c2d53ea83e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/game_executables.py",
+      "bytes": 5886,
+      "sha256": "c3391ba0acfa30764df7575d3ad32599571fa69f04462f8c00f49fb390eaa966"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/gamestate.py",
+      "bytes": 2979,
+      "sha256": "73b0fa05fd4cc6d5114d702e2de44575bc40babe89766f1048805d9a4a84b8e9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_base.verification.json",
+      "bytes": 162,
+      "sha256": "1972580f437105347bc4b4a8147be6d92abe45cf936d28f88771f6561ec0f963"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_bonus.verification.json",
+      "bytes": 162,
+      "sha256": "47f0f251588c3f7811ea7c2b0cd95da02485ab053c6dec371b47a3f8580e2349"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_extra_chance.verification.json",
+      "bytes": 162,
+      "sha256": "1972580f437105347bc4b4a8147be6d92abe45cf936d28f88771f6561ec0f963"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_mystery.verification.json",
+      "bytes": 162,
+      "sha256": "749f72f2a76a1394dece4b5803d44cbaaacd8cd3db680d41b5fcacf83b2560da"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_raid.verification.json",
+      "bytes": 162,
+      "sha256": "e9484f3bc8bfc12e43ac984c47864d9caf09d51afd8bb56af144e07ff6fdc6da"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_storm.verification.json",
+      "bytes": 162,
+      "sha256": "1f9bda9932dce8e4065935cc37c877cb4df7e922389ad140724ff9140589fd88"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_super.verification.json",
+      "bytes": 162,
+      "sha256": "4b971b6f25c132f0b434bf94f5bb7df7d2c0990a1fc412f3342696ca63892785"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/books_super_chance.verification.json",
+      "bytes": 162,
+      "sha256": "1972580f437105347bc4b4a8147be6d92abe45cf936d28f88771f6561ec0f963"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/config.json",
+      "bytes": 7663,
+      "sha256": "7f3126ffa3b42236a58adfa8f73958e9abc546013f89ad58574ec0ebb4ca4ebf"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/config_fe_cloud_vault.json",
+      "bytes": 15685,
+      "sha256": "3eb0425072345d57096e08e598841feb1490554cf39686318921fc731189a7ee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_base.json",
+      "bytes": 10447,
+      "sha256": "fee37ea81da6e76bb4f8d97337dc4a62c73b833e408b91b4925b2cc55e9e1355"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_bonus.json",
+      "bytes": 8915,
+      "sha256": "7424a279528c306dad5a819e4ee61593950d5b96aa37e1edf7420bc027c9ade4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_extra_chance.json",
+      "bytes": 10447,
+      "sha256": "fee37ea81da6e76bb4f8d97337dc4a62c73b833e408b91b4925b2cc55e9e1355"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_mystery.json",
+      "bytes": 8776,
+      "sha256": "a83cb86aec707034b965d18440cbd7ecc23140652aac3cf9f717121391303439"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_raid.json",
+      "bytes": 7690,
+      "sha256": "e5e45a2c571841f4eab43f55d3235244f3ea51f64cb1ad8112c5cdfc2cd127ab"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_storm.json",
+      "bytes": 7691,
+      "sha256": "2808293df72340bf6b1d88ce0d97a2e9716eaf821e49c5c1ecc08d45ec57a48a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_super.json",
+      "bytes": 8787,
+      "sha256": "c1860fac05c7715f297e6a984819a34c6181c47beac4bc88e46c9b00b22df94f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/event_config_super_chance.json",
+      "bytes": 10447,
+      "sha256": "fee37ea81da6e76bb4f8d97337dc4a62c73b833e408b91b4925b2cc55e9e1355"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/configs/math_config.json",
+      "bytes": 106,
+      "sha256": "b39a9951c7384a7f887c68e9cc5c63ca53198a06e6070d60ab1419198c69a196"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force.json",
+      "bytes": 4731,
+      "sha256": "91d1e96774eed811262035e9b9915357964a4377cbe58f520a3e58e7f4fe3e6a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_base.json",
+      "bytes": 2903461,
+      "sha256": "5c97e8fd41ae311ef99df28aa2aa6f940d179f66d28c854197a5490c29ebb976"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_bonus.json",
+      "bytes": 2136131,
+      "sha256": "b231a5d32adebbffc6a691da2d7122798b887fad4a941d727896013dae1eccd6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_extra_chance.json",
+      "bytes": 2903461,
+      "sha256": "5c97e8fd41ae311ef99df28aa2aa6f940d179f66d28c854197a5490c29ebb976"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_mystery.json",
+      "bytes": 1343258,
+      "sha256": "41e0fcd5f54e3ff352f7ff34a569ee0dd090880e144086c39a512660681ef652"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_raid.json",
+      "bytes": 1184179,
+      "sha256": "4667c52fb019b5fcf6cc260d895c80c9a4f0be30e62bc84d08bc2591e4ad23ca"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_storm.json",
+      "bytes": 1184179,
+      "sha256": "4667c52fb019b5fcf6cc260d895c80c9a4f0be30e62bc84d08bc2591e4ad23ca"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_super.json",
+      "bytes": 1537716,
+      "sha256": "16ffe4435912a1531066fd2a6f694586dda9f211e7766e70bc87cda4effb1ab1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/forces/force_record_super_chance.json",
+      "bytes": 2903461,
+      "sha256": "5c97e8fd41ae311ef99df28aa2aa6f940d179f66d28c854197a5490c29ebb976"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_base.csv",
+      "bytes": 1843437,
+      "sha256": "1c3fa746a05bcbc78e4c7e26ec5c45a36883083d085a9a111a4d894135023431"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_bonus.csv",
+      "bytes": 461032,
+      "sha256": "8235e49b60e73071cd5e85950086f46577abab4ca5f4aa97b60a3960770001be"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_extra_chance.csv",
+      "bytes": 1843437,
+      "sha256": "1c3fa746a05bcbc78e4c7e26ec5c45a36883083d085a9a111a4d894135023431"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_mystery.csv",
+      "bytes": 482555,
+      "sha256": "80f8ee2971a6bfa04c752c2f8b4a4e9029d8ebb4ab6fc86543fc3271153a7629"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_raid.csv",
+      "bytes": 775210,
+      "sha256": "e08582c7b2604fe5f6d086b19e1bb9b56d707bb58cf1af48e92862dafbc8ba84"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_storm.csv",
+      "bytes": 828496,
+      "sha256": "85aad70decbb51a06105e055c892b85e1f67e2b8811a108cc4e9cfc2d6a84ab1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_super.csv",
+      "bytes": 457378,
+      "sha256": "9fdfdcab8d7c01f3040f57c7c18f2399d99904e3d06c774e436c87f465f4d4b3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTableSegmented_super_chance.csv",
+      "bytes": 1843437,
+      "sha256": "1c3fa746a05bcbc78e4c7e26ec5c45a36883083d085a9a111a4d894135023431"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_base.csv",
+      "bytes": 1614682,
+      "sha256": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_bonus.csv",
+      "bytes": 438871,
+      "sha256": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_extra_chance.csv",
+      "bytes": 1637335,
+      "sha256": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_mystery.csv",
+      "bytes": 427756,
+      "sha256": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_raid.csv",
+      "bytes": 871490,
+      "sha256": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_storm.csv",
+      "bytes": 886051,
+      "sha256": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_super.csv",
+      "bytes": 430058,
+      "sha256": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/lookup_tables/lookUpTable_super_chance.csv",
+      "bytes": 1634857,
+      "sha256": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_base.jsonl.zst",
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_bonus.jsonl.zst",
+      "bytes": 43981517,
+      "sha256": "d7504637b55fc78997c54abfab5bc94c43bcb5a45b1ddb6e3925c40adf2a3c24"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_extra_chance.jsonl.zst",
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_mystery.jsonl.zst",
+      "bytes": 30047565,
+      "sha256": "3381adb581b83c29a658890c7dd8c5c7f85bf67a37993f11ab7a2c1c68a8ba02"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_raid.jsonl.zst",
+      "bytes": 9647257,
+      "sha256": "8eb523a7ba8e176cfcf375270f11b0a6e33177806894bd48dc1760b6ed2526d7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_storm.jsonl.zst",
+      "bytes": 9629148,
+      "sha256": "8f4e6393bce82729106322ebeb73fe42aae81854829546371fb64d684eddeeb6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_super.jsonl.zst",
+      "bytes": 38627865,
+      "sha256": "c0d4cde5e8814a1465b90709b72421c9aae5f3e6a7bade61a43f1884ef3de546"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/books_super_chance.jsonl.zst",
+      "bytes": 58054266,
+      "sha256": "6d8a33bec6432320fda3de86340bc06d22d391c279856ccafe13fab9d615deee"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/index.json",
+      "bytes": 1444,
+      "sha256": "145312d97348eb2d565154984da1e283864155c1b8195bb1f01186106aef8478"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_base_0.csv",
+      "bytes": 1614682,
+      "sha256": "c830d40ed3d9373b5095df472a47beb3cc5895f42fa76fa55b895eb8b3871778"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_bonus_0.csv",
+      "bytes": 438871,
+      "sha256": "43369574dfd6763ced0196c49f1218d753ccb60edb8a0ed00907a57a4f18e128"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_extra_chance_0.csv",
+      "bytes": 1637335,
+      "sha256": "3dd30b4c941a767e0301018637a13778a4225cb7bef8d5f0a70cd52c480b0572"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_mystery_0.csv",
+      "bytes": 427756,
+      "sha256": "b0628cbab255538019baa18a2e9c492223dd76c85a761f721d297ce6054f5bbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_raid_0.csv",
+      "bytes": 871490,
+      "sha256": "52ed1f2e4866d5828b3b41b3f38ef2df18a8a3de6992d13bafce036826bd216b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_storm_0.csv",
+      "bytes": 886051,
+      "sha256": "ebeb7d81ece8591e0fc3363e92e859a96c54f4dc5598a5115b02fc217180c71f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_super_0.csv",
+      "bytes": 430058,
+      "sha256": "d1a2fa8b1583664d753740d8c0cae18019140403fceddcff9d648257f0bc9640"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/publish_files/lookUpTable_super_chance_0.csv",
+      "bytes": 1634857,
+      "sha256": "7b840439b5b7dc1bbd4e4a099236bab94221be1cf30381a713514142a84f928f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/library/rtp_report.json",
+      "bytes": 15751,
+      "sha256": "b4a00522abd71766960ef07228dc681aa02f924cf3bbdc4bccd9a5457da35864"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/make_reels.py",
+      "bytes": 1910,
+      "sha256": "c4d32aa932f168d79b809bdf96758ade3745ff6129c54cd8e366d1c480f0c6d8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/reels/BR0.csv",
+      "bytes": 1780,
+      "sha256": "62bbf83f906e0d525dc4f7b3e6a64944d9fa348a3f47432f01d16982c44c4dcc"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/reels/FR0.csv",
+      "bytes": 1790,
+      "sha256": "d264927ed8e3c9ed905e8e1c3c6ac95d297c285bc874471c39eacc0d2fd708c0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/reels/FR1.csv",
+      "bytes": 1790,
+      "sha256": "e52f9a955f328b7d04d89d12ec23b40333177c1a7fa8559e9785d37bb3b9cbec"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/reels/RR0.csv",
+      "bytes": 1800,
+      "sha256": "44c372fb5c407a5b75fb30a6b0908c969ca2d3a10ac7bf6eb46623e6ae9a3030"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/release/paradise_bloom_frontend_1.0.22.zip",
+      "bytes": 52020746,
+      "sha256": "2bf56eb15d8ce53e6f8e848ddc6d3c448f8f25dc7030affa2e6fe74ec1f98dad"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/risk_weights.py",
+      "bytes": 8286,
+      "sha256": "26cdae8dbcbe113598f38404cbe07bdb565d6a863fb44dcab278259feabefaff"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/run.py",
+      "bytes": 1828,
+      "sha256": "5b99b2bdd7d73db2ea3d18ddda080536a7453349101b497cdfd6d84c12dbe727"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/README.md",
+      "bytes": 5729,
+      "sha256": "4454b65cea30b69b5be6f5c4d10a5e58a4be904ac9d61e537b5e3c9a49b7f643"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/BRIEF_layered_character.md",
+      "bytes": 7010,
+      "sha256": "19a454d97fb2ddc2b12efa77791c5af3e29e04ddad461158ee2a26231555730c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/character.json",
+      "bytes": 568959,
+      "sha256": "bd192bf41bbe3c221a96bb9f73467dc0ec51989ff28d003f76af67de9ba6b3dd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/bird_body.png",
+      "bytes": 108253,
+      "sha256": "03bf1bf20b927cafeae4f1ac64b066c32fda740d9d66771d93505bf548536f6d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/bird_sit.png",
+      "bytes": 115008,
+      "sha256": "75ce851acdef2529667c0d1885ba3a7d70d34c7a6fc88afda76d82c05943aa42"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/bird_wing_down.png",
+      "bytes": 26037,
+      "sha256": "085002088619c9955b8ebc096258cdee49c44a760f75f90b6380b04b47dfc61b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/bird_wing_mid.png",
+      "bytes": 22173,
+      "sha256": "7e3fd90eb8ac0aa16b6f4bd9e606da814dca4bfe451730944aca2ee6f1846f24"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/bird_wing_up.png",
+      "bytes": 20465,
+      "sha256": "8328db058c16f3b33b7e87370636e83fe295f46b65540a9c5ef08095035854c0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/finger_tip.png",
+      "bytes": 4033,
+      "sha256": "c0d9845eabb1e46d4b93d4785025559a8d4bd5e0020b58b2fefe9d75b70550bc"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/fx_soft.png",
+      "bytes": 4414,
+      "sha256": "73e6b543fee496d0c9300d2c67578bf0c9cda63883ea3b92d07310c7be829ad0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/fx_spark.png",
+      "bytes": 1942,
+      "sha256": "d562da92fa5e275a31ba9f268b555d77fe6781d907fd960b9ad21c346205c3f0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/images/heroine.png",
+      "bytes": 3464753,
+      "sha256": "8e4c51ac14f435ef9d555eb3926b2de0cc9fee47f53757835455aafde05ffcbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/arm_rest.png",
+      "bytes": 276505,
+      "sha256": "c04988d39b5bc3861bdb712281951c9f548d4c6b98f7afb45d9407e55532b740"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/arm_up_fore.png",
+      "bytes": 80989,
+      "sha256": "b4bfdd8db65457fd6672b6e4025ac04447db995ad65599e2305476199bdeafd0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/arm_up_upper.png",
+      "bytes": 278697,
+      "sha256": "e94669a9f63352179b23b74677db8278ccb121586ffa8a640dda3799ff211630"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bangs.png",
+      "bytes": 198190,
+      "sha256": "ff007ed7738b5c9f189bff57bcac7ab037a651bb476ca1ce1b82c0e01f229f01"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bird_body.png",
+      "bytes": 109929,
+      "sha256": "72e38c52321c81ce2428663635fc640782f6086bb537a596e3f17030697a698c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bird_sit.png",
+      "bytes": 117102,
+      "sha256": "fc1074744e973c3d7866739ea4dee6e9903d2e4a3b7b8220ed3ad91eb063faa6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bird_wing_down.png",
+      "bytes": 29123,
+      "sha256": "d3a3bb35b47816cd6d556d1edced5ad7e9c9920552fa7d89526641863a36cae2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bird_wing_mid.png",
+      "bytes": 25394,
+      "sha256": "785a916d8d47147311012f86a171e1f0ec20f79385bc3e2b75ec919ccb2816ab"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/bird_wing_up.png",
+      "bytes": 23755,
+      "sha256": "c330b6d992881a70a881436b5d653e3da4735cb5ee01f66ba86404055e4681c7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/body.png",
+      "bytes": 2310779,
+      "sha256": "ebe7c992a5c1bc74d389abc7c9001eb381c5721ba8b2dd601414112b275e647a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/cloud_back.png",
+      "bytes": 853916,
+      "sha256": "0110a2c702d7cf611d3e7d4b0a4207e88cfd86d79f08ae91c38523b5a8c3973e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/cloud_front.png",
+      "bytes": 133229,
+      "sha256": "ba10ebff58bdf4783249c12fbbe281280a4d2346a7a5fdcdc021de714eaa4378"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/dress_tail.png",
+      "bytes": 386386,
+      "sha256": "1807fe1e3c43a9aea997563fad26cf8445435a600be30033d8cd6c0f587a687a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/eyes_closed.png",
+      "bytes": 32977,
+      "sha256": "81767ae3b3fee40495cda1fbee0c460839fd8aefe9056ad54fc168193f6b8805"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/eyes_half.png",
+      "bytes": 36933,
+      "sha256": "5eae03cd8fd8705879ec98b8415585d9b3419a3abd0825ef6cd87819e7e29d8c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/eyes_happy.png",
+      "bytes": 33556,
+      "sha256": "6b41a7baf63a3edda63e7200103a84b59f0915ca9367ac55602952e5a03f732c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/eyes_open.png",
+      "bytes": 42726,
+      "sha256": "cf5239a109b4feb1e2c4e748505b3a8ec4332f8e006694b26e320d0ed3f05f60"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/hair_back.png",
+      "bytes": 1775605,
+      "sha256": "33a92b2b441f54939e68aec05ed6e7e1ddeaeb3e04b71fc4a6449bcb5218cd52"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/halo.png",
+      "bytes": 121047,
+      "sha256": "1e3a7a9787938f119dca2062ce006a23f82b48c4a3d98d127ff5fb0941001d18"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/hand_cheer.png",
+      "bytes": 62766,
+      "sha256": "03077302b80db057d2dfc73a97268b40db47518d9602adae5484e61e851d13fa"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/hand_open.png",
+      "bytes": 81625,
+      "sha256": "809a50a36b87ad4ea2dd3a9874d9a199dbb1f4625b9a7a728a2efcdc04cfe631"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/hand_point.png",
+      "bytes": 73999,
+      "sha256": "7b2b1101d56f16943d462891008a7f08cd19ba9a02a7067162f83e3af4411658"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/head.png",
+      "bytes": 171601,
+      "sha256": "af575bb037b5e6446b10ae54f82f773a29a3580ac6847118fb6f5a2794f150d8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/lock_L.png",
+      "bytes": 60717,
+      "sha256": "96448a33d4d8ee22378ea61259cafc07d941ae4160fa1d6f7ae83e124ecd6735"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/lock_R.png",
+      "bytes": 55541,
+      "sha256": "58b52f63d6c0c264ef8bd383edcd04d72cf8f45d481d525214472f6186addc58"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/master.png",
+      "bytes": 4224950,
+      "sha256": "6cdc6377b787a1569711aee69d4dcfa2519da8e52f219a00f4d7b4b35f416e04"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/mouth_o.png",
+      "bytes": 25133,
+      "sha256": "b69db8c7b8a6c23a43c548f6dca4c496eb1e3994cdf7503a9f7825f8ed625571"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/mouth_open.png",
+      "bytes": 25855,
+      "sha256": "3380930318165ab191ce0e9aa8e509ef0f27f6ec92543886f6d0d4a843a8120d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/mouth_smile.png",
+      "bytes": 24454,
+      "sha256": "a2316dc8b20bed33d52e96805f5bef3d75af2c4d77b9191255cf4093894017bf"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/neck.png",
+      "bytes": 64304,
+      "sha256": "5ac52fc5c1d6b83bd8f052d623faf5e5a76e7af6dcf9ea1836677cced811838c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/rig.json",
+      "bytes": 435,
+      "sha256": "510548eeb35c66d6aca3551030cc81efab4d17b44bd3f765c7f56afb93821235"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/strand_1.png",
+      "bytes": 137275,
+      "sha256": "89357c1d0d5acb46cebe31abd62a98bcfa0de8424d7bbfb8a89a1b045e78b79d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/strand_2.png",
+      "bytes": 42629,
+      "sha256": "b3054a52aa3d1042eb42e83e339d87d0bd6e84cfbcbb1d9f1e8f1cb8475750cd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/strand_3.png",
+      "bytes": 137625,
+      "sha256": "d73eaa45759ef4043b0c80c4473072e42b9bf96e360ed7935a5d308c7a10692d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/strand_4.png",
+      "bytes": 181639,
+      "sha256": "20cb19edc22a165368f8700cdb40400c6c4f334808504c60944aac7947465e58"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/wing_L.png",
+      "bytes": 56752,
+      "sha256": "a0430c1377d96fa227776d145c2dfece88992ef628cf0cdfbd07bf842d52d7cb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers/wing_R.png",
+      "bytes": 144448,
+      "sha256": "7062cce4ec37592a3a52391ff43518ccd5d3b5935085bb18ee54d722c0ba2ea9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/layers_check.png",
+      "bytes": 1586866,
+      "sha256": "0cc53b68a63e93e0d38ae6071a3ae1b7a7078ff4ec9390a7e48b8339f745e7b6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/bird_body.png",
+      "bytes": 109929,
+      "sha256": "72e38c52321c81ce2428663635fc640782f6086bb537a596e3f17030697a698c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/bird_sit.png",
+      "bytes": 117102,
+      "sha256": "fc1074744e973c3d7866739ea4dee6e9903d2e4a3b7b8220ed3ad91eb063faa6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/bird_wing_down.png",
+      "bytes": 29123,
+      "sha256": "d3a3bb35b47816cd6d556d1edced5ad7e9c9920552fa7d89526641863a36cae2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/bird_wing_mid.png",
+      "bytes": 25394,
+      "sha256": "785a916d8d47147311012f86a171e1f0ec20f79385bc3e2b75ec919ccb2816ab"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/bird_wing_up.png",
+      "bytes": 23755,
+      "sha256": "c330b6d992881a70a881436b5d653e3da4735cb5ee01f66ba86404055e4681c7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/master/master.png",
+      "bytes": 3439154,
+      "sha256": "b66d7a9073481000f14800eee78ebd48a3788a50ac7d747257ee7f4f03de3c46"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/backdrop.png",
+      "bytes": 476241,
+      "sha256": "3872e00e6a7ca60538f3fcde028f096d3fae911403af7e54baee9f867b935d49"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/base.png",
+      "bytes": 1709417,
+      "sha256": "595ed6d5d8de6b039a9226fb1a975e39510ab53b9018c76575bda6bfce2444ff"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/cloth_drape_L.png",
+      "bytes": 123799,
+      "sha256": "01596cf7191171a6a7265ce0811cad1c44e697c7e1f8309a6b426896fa7d4e71"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/cloth_tail_R.png",
+      "bytes": 46516,
+      "sha256": "9ac5be80852df26d6172380c18e877365abc4a2821baa58055e0c40b287b94b4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/cloud.png",
+      "bytes": 309171,
+      "sha256": "a8e1470a0b25c954659bc37e5e44c9eb20cfad7963d63fc2ccf09377024d4ce2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/fx_glow.png",
+      "bytes": 19722,
+      "sha256": "23090353904afb954d2cf1f93b18d8d9e6e89e04924bad0eb877db16a636592c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/fx_spark.png",
+      "bytes": 1942,
+      "sha256": "d562da92fa5e275a31ba9f268b555d77fe6781d907fd960b9ad21c346205c3f0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_curl_bottom.png",
+      "bytes": 15756,
+      "sha256": "f11d82663dc849397ebf1a238b84c5e34e7ae2babae19d4deec09b720bb4891b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_curl_top.png",
+      "bytes": 39471,
+      "sha256": "8a2c58c4ae9359ac382c6fd3d102474ca2f4d6deb4eee4c971d7a88b30ef67fb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_left_low.png",
+      "bytes": 25034,
+      "sha256": "e67f93d0aead3cbc80f29df96e5f3b99b9c471e6a3f3ebfad3bbce6969a35743"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_left_main.png",
+      "bytes": 89520,
+      "sha256": "3851f9b4ba399c664de96f8e480702b372e27467e8e28c4e9b4cf61b3610b8c8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_right_a.png",
+      "bytes": 14728,
+      "sha256": "7f966a64a82cc4b4f9c8268d0532a5320071d6e6f603d5dae2f7488388b0a10c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_right_b.png",
+      "bytes": 42916,
+      "sha256": "9850cd1954c433eb480a5ee3b02e755b8b0346f093b2b3fa6a0325a419a45afd"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hair_right_c.png",
+      "bytes": 35563,
+      "sha256": "c76b105014966aff337766056d7fb8970bf8e9c476a6264c84b2ecd8b19f0fac"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/halo.png",
+      "bytes": 65395,
+      "sha256": "4a0af12f945c9bed56a8eb3d03d1567a4aea5768c3c261b08700e8ddabc23a9d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/hand_open.png",
+      "bytes": 85711,
+      "sha256": "b78e3b1ca80c4cc86f17e9c401d87b41fd23fc9608f411cde6a35dd2dafb6f0b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/head.png",
+      "bytes": 193457,
+      "sha256": "04fd0ba99d167b6c53af46c2a83094a41774400e3c9fcb73396af1210ebaddbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/torso.png",
+      "bytes": 576288,
+      "sha256": "b98aae6b4b5bf0f147fcba8bba5e3922dbf78948aa727ece7d9740d38a46514b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/v28_character.spine",
+      "bytes": 90564,
+      "sha256": "74598a7b252ada658ff71b5149c1941080039f290c992746032d0886309ba543"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/v28_layout.json",
+      "bytes": 638992,
+      "sha256": "b89be1bf762be2dec0fa8d4af81cd215e66b2f898231ac4014c234fbe4314db3"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/wing_L.png",
+      "bytes": 83894,
+      "sha256": "829d089c36399d1bd2712089d5188027fb85101a0427ee71634486e61554f3e2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/character/src/wing_R.png",
+      "bytes": 34956,
+      "sha256": "c74a18fc77a1543149d06a5a6cd781d57e2024241b493aabdec3ee89b0a06ab6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/chest.json",
+      "bytes": 5413,
+      "sha256": "fec8600cc32e7e71de3379b8c424506e50e4c287c13e3eb73fee6788136c5060"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/chest.spine",
+      "bytes": 1097,
+      "sha256": "d370c753dd87c9e33b2cebcffd5d4c586542164d757b35acf9e03d88ce8bc29e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/images/chest_closed.png",
+      "bytes": 150642,
+      "sha256": "24e908525a3260164c4ccf3f32d607eb18cd6e796bbe5d7e13753f4fe4fc960e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/images/chest_open.png",
+      "bytes": 196323,
+      "sha256": "33f07244d60c79bb5b278a1a245a2d6df13fb7bbc334d866f4aca0fd6c766cc4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/images/chest_ready.png",
+      "bytes": 169143,
+      "sha256": "bdc5d585f921d0cdab92b1fa24a026b0f59f736d0faf5b41281aeb6f9e2f5c27"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/images/glow.png",
+      "bytes": 19722,
+      "sha256": "23090353904afb954d2cf1f93b18d8d9e6e89e04924bad0eb877db16a636592c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/chest/images/ring.png",
+      "bytes": 15935,
+      "sha256": "e4b847407138de989ed9f1f98c6c9b8c7136339d5bcb80093b9b4b97c216703b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/frame/frame.json",
+      "bytes": 2297,
+      "sha256": "874bbdc0b7f84ce402d8965d8ac428b06d3025890f3f8a60d3a6605eb4948422"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/frame/frame.spine",
+      "bytes": 808,
+      "sha256": "9d857fe8a0256eaa8493d300e5fcb6d85a8c08abe71a80b9837f989671ba6ba7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/frame/images/beam.png",
+      "bytes": 17671,
+      "sha256": "7ccd2e810de90be9df92882f155d50c6f831777277995111a6784a97e75b7f97"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/frame/images/frame.png",
+      "bytes": 394587,
+      "sha256": "48113203403ed1ee9e9026ccb7ae7d3e633577107f75e6ebd5a275dbdc995ef4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/banner_plaque.png",
+      "bytes": 421344,
+      "sha256": "0c689f26f221fa3501b83f9828130608378805ee150c8e072d542abfd1b2d22f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/cloud_big_1.png",
+      "bytes": 546502,
+      "sha256": "6e1bc315814b39ef76e284c416773d2fbe5f518b039e75dede65a5a001d2b383"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/cloud_big_2.png",
+      "bytes": 607612,
+      "sha256": "67ffad5fbff5554cd8ec247a4f44844754e4e3d6475428294e169f1cdfde79c2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/cloud_big_3.png",
+      "bytes": 571955,
+      "sha256": "b3727734de2c426868d43436b8bf3b99954d79dcf338c88c7263cbafe8981c4f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/coin.png",
+      "bytes": 99891,
+      "sha256": "b6db40f0f91689faaa43f2d16adef933cf40fcae9d1eba997fa57111e25d3673"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/coin_edge.png",
+      "bytes": 40512,
+      "sha256": "dc7cb5158e50e3e0067c59602dd83f862069b48a47ea015911cd55dfd9002966"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/gem_blue.png",
+      "bytes": 7920,
+      "sha256": "ea477bd5cc495c363e817c619886abdd962756d8a449af0841c3b499ba7e58f4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/gem_green.png",
+      "bytes": 8231,
+      "sha256": "791dedb973601e525e014be0e30d387db4ff5a2b0f211c7f878005b0174612d7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/gem_red.png",
+      "bytes": 16901,
+      "sha256": "fa89632b65bcee49424f949eb3945d11c6e8b8ad054ae3f1d2e30aea2d10602d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/glow.png",
+      "bytes": 19722,
+      "sha256": "23090353904afb954d2cf1f93b18d8d9e6e89e04924bad0eb877db16a636592c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/lotus_open_v3.png",
+      "bytes": 196323,
+      "sha256": "33f07244d60c79bb5b278a1a245a2d6df13fb7bbc334d866f4aca0fd6c766cc4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/rays.png",
+      "bytes": 681805,
+      "sha256": "8095bc7a718acb3a3f7e953497ccad64d76cefbae1822c355d29c3866010a227"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/ribbon_5x_minimum.png",
+      "bytes": 103696,
+      "sha256": "3390a1cff9cf54bc435bd0a236eca6fd1edc1d5b8350a9ef217197bfbb7543a6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/ring.png",
+      "bytes": 15935,
+      "sha256": "e4b847407138de989ed9f1f98c6c9b8c7136339d5bcb80093b9b4b97c216703b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/spark.png",
+      "bytes": 1942,
+      "sha256": "d562da92fa5e275a31ba9f268b555d77fe6781d907fd960b9ad21c346205c3f0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_big_win.png",
+      "bytes": 450920,
+      "sha256": "47d33af19ffd773cac43078dac5182a38ce00cb81d33188bc39794828b43b5f6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_bloom_bonus.png",
+      "bytes": 442711,
+      "sha256": "56a2ab5a6ceba45375d1600e55cfa50f1a1a958504c11fef11545ec151a5c64d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_bloom_epic.png",
+      "bytes": 382582,
+      "sha256": "687fe5b411ca4c9afa98931112b2ad6ce98d4cf437c5861034d4962132dfce12"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_bloom_super.png",
+      "bytes": 444550,
+      "sha256": "decfe192cd0fe0646fc36d87bd9fd2842ae025d4f3e7283d73818b0f2ed45015"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_epic_win.png",
+      "bytes": 483543,
+      "sha256": "fb78ee5f6ad510f7928a3aa105cd1c104d381490f39d209ceb2dac5db0cad4f8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_free_spins.png",
+      "bytes": 297455,
+      "sha256": "5da487eced104e44bd3521f6617d4d818bee77dd65bddbd045e75d5974733cbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_max_win.png",
+      "bytes": 502862,
+      "sha256": "7fa1c933575d5e98289b73098231b467eeeaaf539a31c7071d659585d3e8beb1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_mega_win.png",
+      "bytes": 535308,
+      "sha256": "13cd15e1cce655ecbdd3f0b8b013419e64f7172b26a61f8300b26987f14ddd18"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/title_total_win.png",
+      "bytes": 414725,
+      "sha256": "290f3c20a4a419f606d94df9d1743b5647b77cd54297e467acd335c4c708b66c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/win_lotus_v3.png",
+      "bytes": 743520,
+      "sha256": "241683af9cbb193bd87d52b9f4990258c4b972de66efe4d61ba96dd6d3ed060a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/images/win_tree_v3.png",
+      "bytes": 983779,
+      "sha256": "6fcfb48181a4aef97f055f33249f40416405350e77deb24175948619fb6c6be2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/screens.json",
+      "bytes": 430069,
+      "sha256": "a3f18f11dd4ef95a8d3eb2f5f77982a8f98ada5be649455f84ad273cb1d5346f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/screens.spine",
+      "bytes": 13785,
+      "sha256": "a89756446658940547eb1e9c57cc5b850bdd0142e01b26efb5fc3f466b1a261a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/banner_plaque.png",
+      "bytes": 421344,
+      "sha256": "0c689f26f221fa3501b83f9828130608378805ee150c8e072d542abfd1b2d22f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/cloud_big_1.png",
+      "bytes": 546502,
+      "sha256": "6e1bc315814b39ef76e284c416773d2fbe5f518b039e75dede65a5a001d2b383"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/cloud_big_2.png",
+      "bytes": 607612,
+      "sha256": "67ffad5fbff5554cd8ec247a4f44844754e4e3d6475428294e169f1cdfde79c2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/cloud_big_3.png",
+      "bytes": 571955,
+      "sha256": "b3727734de2c426868d43436b8bf3b99954d79dcf338c88c7263cbafe8981c4f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/coin.png",
+      "bytes": 99891,
+      "sha256": "b6db40f0f91689faaa43f2d16adef933cf40fcae9d1eba997fa57111e25d3673"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/coin_edge.png",
+      "bytes": 40512,
+      "sha256": "dc7cb5158e50e3e0067c59602dd83f862069b48a47ea015911cd55dfd9002966"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/gem_blue.png",
+      "bytes": 7920,
+      "sha256": "ea477bd5cc495c363e817c619886abdd962756d8a449af0841c3b499ba7e58f4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/gem_green.png",
+      "bytes": 8231,
+      "sha256": "791dedb973601e525e014be0e30d387db4ff5a2b0f211c7f878005b0174612d7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/gem_red.png",
+      "bytes": 16901,
+      "sha256": "fa89632b65bcee49424f949eb3945d11c6e8b8ad054ae3f1d2e30aea2d10602d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/glow.png",
+      "bytes": 19722,
+      "sha256": "23090353904afb954d2cf1f93b18d8d9e6e89e04924bad0eb877db16a636592c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/lotus_open_v3.png",
+      "bytes": 196323,
+      "sha256": "33f07244d60c79bb5b278a1a245a2d6df13fb7bbc334d866f4aca0fd6c766cc4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/rays.png",
+      "bytes": 681805,
+      "sha256": "8095bc7a718acb3a3f7e953497ccad64d76cefbae1822c355d29c3866010a227"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/ribbon_5x_minimum.png",
+      "bytes": 103696,
+      "sha256": "3390a1cff9cf54bc435bd0a236eca6fd1edc1d5b8350a9ef217197bfbb7543a6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/ring.png",
+      "bytes": 15935,
+      "sha256": "e4b847407138de989ed9f1f98c6c9b8c7136339d5bcb80093b9b4b97c216703b"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/spark.png",
+      "bytes": 1942,
+      "sha256": "d562da92fa5e275a31ba9f268b555d77fe6781d907fd960b9ad21c346205c3f0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_big_win.png",
+      "bytes": 450920,
+      "sha256": "47d33af19ffd773cac43078dac5182a38ce00cb81d33188bc39794828b43b5f6"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_bloom_bonus.png",
+      "bytes": 442711,
+      "sha256": "56a2ab5a6ceba45375d1600e55cfa50f1a1a958504c11fef11545ec151a5c64d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_bloom_epic.png",
+      "bytes": 382582,
+      "sha256": "687fe5b411ca4c9afa98931112b2ad6ce98d4cf437c5861034d4962132dfce12"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_bloom_super.png",
+      "bytes": 444550,
+      "sha256": "decfe192cd0fe0646fc36d87bd9fd2842ae025d4f3e7283d73818b0f2ed45015"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_epic_win.png",
+      "bytes": 483543,
+      "sha256": "fb78ee5f6ad510f7928a3aa105cd1c104d381490f39d209ceb2dac5db0cad4f8"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_free_spins.png",
+      "bytes": 297455,
+      "sha256": "5da487eced104e44bd3521f6617d4d818bee77dd65bddbd045e75d5974733cbb"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_max_win.png",
+      "bytes": 502862,
+      "sha256": "7fa1c933575d5e98289b73098231b467eeeaaf539a31c7071d659585d3e8beb1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_mega_win.png",
+      "bytes": 535308,
+      "sha256": "13cd15e1cce655ecbdd3f0b8b013419e64f7172b26a61f8300b26987f14ddd18"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/title_total_win.png",
+      "bytes": 414725,
+      "sha256": "290f3c20a4a419f606d94df9d1743b5647b77cd54297e467acd335c4c708b66c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/win_lotus_v3.png",
+      "bytes": 743520,
+      "sha256": "241683af9cbb193bd87d52b9f4990258c4b972de66efe4d61ba96dd6d3ed060a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/screens/src/win_tree_v3.png",
+      "bytes": 983779,
+      "sha256": "6fcfb48181a4aef97f055f33249f40416405350e77deb24175948619fb6c6be2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/beam.png",
+      "bytes": 20171,
+      "sha256": "15c59ba70c3a46c876d99b80747b4c7f581e30afbfa708c02362940fb2696122"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/blue_gem.png",
+      "bytes": 206816,
+      "sha256": "37f80f7d62e15485c55634dc3fda4f9326f469df2e2f8a76a01866b418bf5a3e"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/chalice.png",
+      "bytes": 203194,
+      "sha256": "6b035605a86f9b620611421caee26b04832d9c4193a3793907d0b9f454276e68"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/disc.png",
+      "bytes": 27624,
+      "sha256": "2b0a14aaea25595d10444f1548b45dc879af59721598f41740f88164c672eedf"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/green_gem.png",
+      "bytes": 257672,
+      "sha256": "7b80c6c9c3d7c8d98ad855ce40f2b08dc5b4475d93bb58ff19cede375e8a6c22"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/halo.png",
+      "bytes": 135806,
+      "sha256": "0cbb97773743bec692a17a872db875b294064725391e88d4dfd10e01f8e4be0f"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/halo_card.png",
+      "bytes": 315525,
+      "sha256": "e43da40f195a8f545703e9689dcdeeedf93b31d66bb68c0e8029a5854cbd6268"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/harp.png",
+      "bytes": 281708,
+      "sha256": "08421529d75b2263bb5cf9a26480680f8aeed8440dc20b9115beca56ad863b15"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/heart.png",
+      "bytes": 268012,
+      "sha256": "7f8c98959950b88011208b050de02da64265ee0fb52b0f3ab201ae4fa2208071"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/puff_bottom.png",
+      "bytes": 9658,
+      "sha256": "7d5cbe19db8a5d898adea03f61288ac4340cca2f92502dd5be60d6b395d89a85"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/puff_center.png",
+      "bytes": 10266,
+      "sha256": "0b45505661c8043da12e5522d20eb2c4ee05448a73d28de74d67c6dfe072b788"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/puff_side_a.png",
+      "bytes": 9380,
+      "sha256": "b96ed695bafb6e0bbd09d328c1b8f31debe138d60a3e5b2abadee1d59178e7a2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/puff_side_b.png",
+      "bytes": 9283,
+      "sha256": "98ce52f7ca878ddfe8074a0d75eabbe5a3935d7ebad1def20059057f1a3a9bf9"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/puff_top.png",
+      "bytes": 8964,
+      "sha256": "b73cd0a3ce06f4725e912c379ded34baad3d3fe80ac76ed82431218e911f4e13"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/purple_gem.png",
+      "bytes": 250217,
+      "sha256": "ef26471fbe8f0da28db6019de7e52e8978d13e8f33b21e8bbcc325ccb46bfe40"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/ring.png",
+      "bytes": 16493,
+      "sha256": "857c196e53d49b2b5248bbc51ccd63dab5df874f766a3be834035d45afa05bb0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/scroll_feather.png",
+      "bytes": 173836,
+      "sha256": "72e3e0b8936ed24791051fd22e8a3bba216a68ffc5a6012eea2e7d9aa954c463"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/spark.png",
+      "bytes": 1942,
+      "sha256": "d562da92fa5e275a31ba9f268b555d77fe6781d907fd960b9ad21c346205c3f0"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/images/wand.png",
+      "bytes": 246889,
+      "sha256": "5e0ad01d91e44ccfcb44aac4e068412e0fdecb30d904c52d0bd1f01ddaf6f614"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/symbols.json",
+      "bytes": 277833,
+      "sha256": "80de8269df186d9fab0e335f0a79b8a697f9a8f95efda3934922ffe3596058b7"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/symbols/symbols.spine",
+      "bytes": 27149,
+      "sha256": "26b78bf16646f270e908bd14d73c250d589ec196d22e2801f4556dd9db83e03a"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/export_frame.json",
+      "bytes": 1382,
+      "sha256": "a2a78bf6e8f8aec2935089124758c3ff6fb1b52155beaf3d361e8eb29b730b71"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/export_screens.json",
+      "bytes": 1349,
+      "sha256": "46f6bf295299452ec4bc18b62a75d9a725204e74e1d8d0b902dc570c41d0d5d2"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_character.py",
+      "bytes": 46168,
+      "sha256": "4964be9f4dcaaa3c88601049ff059c3e0f6d7f0640e196626b990ee7bda4364c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_character.sh",
+      "bytes": 1074,
+      "sha256": "39dd39273b11fc58a424f4fd72b5d0a142f2dc8003c74546ada881527c767c94"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_heroine.py",
+      "bytes": 37779,
+      "sha256": "facc80eaab48b2fb7c65fc73ca54f1927e61a3ee3973e47b5a9ccfaf03d30b9c"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_master_rig.py",
+      "bytes": 33544,
+      "sha256": "1af73933b962bf68af6f1b6867c83976e9c7e2e4b617b25e72748638d6a88b4d"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_rigs.py",
+      "bytes": 18088,
+      "sha256": "b3a0019415165fdac631299f71e0ac58e671d39ea7926ad09317f30a6825a7ba"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/make_rigs.sh",
+      "bytes": 399,
+      "sha256": "6953cd67ac71379b5aa38f09c01669980b70896529c49026f78232cf89ed97a1"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/pack_character.json",
+      "bytes": 1046,
+      "sha256": "3bfc108ed3ea1c0ac0a5555ac107a38afdb3e91d7e1d05c1c41215b998311627"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/rigkit.py",
+      "bytes": 9916,
+      "sha256": "ce6d030c44b6ed21744c51708c218d0799ee754144e0324680c493b73f607da4"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/spine/tools/weight_map.py",
+      "bytes": 1669,
+      "sha256": "8e86f6000df331fd890f0d403e897025b5e445c9a9d61fbbf867deedccfd53df"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/test_risk_weights.py",
+      "bytes": 1271,
+      "sha256": "f4e3190aaa87ee27e420b5a275c4c3eab45954a087880571c90426ee6d17ab03"
+    },
+    {
+      "path": "math-sdk/games/cloud_vault/weights.py",
+      "bytes": 5478,
+      "sha256": "e5c72cef6805363570e667c1e5e6c7f25c520f26f488c2759d9f3952000b8eae"
+    },
+    {
+      "path": "math-sdk/requirements.txt",
+      "bytes": 397,
+      "sha256": "1452db8336d48c9df7f4811b044caa018c35166778e514856abbcdcfc9fb9a5a"
+    },
+    {
+      "path": "math-sdk/setup.py",
+      "bytes": 183,
+      "sha256": "ddc40303e6c541585443356f8c79a64682b9fb7b88a064d401cab938e004dbbc"
+    },
+    {
+      "path": "math-sdk/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/calculations/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/calculations/board.py",
+      "bytes": 15348,
+      "sha256": "4a32f7b911cc2c4152dcebc9460868b678e1c098483b71536ec74b09ce8245ee"
+    },
+    {
+      "path": "math-sdk/src/calculations/cluster.py",
+      "bytes": 7894,
+      "sha256": "c109bb2b3e4320cf3bec5cb8526ab4e9608c6f0a4a45d0a7482be0de6f8e2408"
+    },
+    {
+      "path": "math-sdk/src/calculations/lines.py",
+      "bytes": 5776,
+      "sha256": "f338b481ef93e47f7ceaf5be8282319f431fff1201b05041f55ff2562486a206"
+    },
+    {
+      "path": "math-sdk/src/calculations/scatter.py",
+      "bytes": 4238,
+      "sha256": "38115f63818c15d694dd24df3f5f6465f1e5800c0c000f78461ac46147127308"
+    },
+    {
+      "path": "math-sdk/src/calculations/statistics.py",
+      "bytes": 1613,
+      "sha256": "4be7a25c5a9ce10b96e8a74474411415eb680e5623f553e38d189d8978befbf7"
+    },
+    {
+      "path": "math-sdk/src/calculations/symbol.py",
+      "bytes": 3809,
+      "sha256": "5a16f92bf7ee6e6bcfdc6baa9e1ccc7c386f1f7dd4d8e55a2fd87cefce92873d"
+    },
+    {
+      "path": "math-sdk/src/calculations/tumble.py",
+      "bytes": 2424,
+      "sha256": "be71605b8cca578ca434f6158132bd9e061719e8fb8a97f7f415291bcd6ecf67"
+    },
+    {
+      "path": "math-sdk/src/calculations/ways.py",
+      "bytes": 6887,
+      "sha256": "12df8b1dd328a49fd92ffedb5f9254fa76f12e7100012d5d8c07aabd48861f76"
+    },
+    {
+      "path": "math-sdk/src/config/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/config/betmode.py",
+      "bytes": 3370,
+      "sha256": "d611dd1646ba2d55d5cfcdd43380e069e54e2a24cc836e6aaf5590e4c28a3a15"
+    },
+    {
+      "path": "math-sdk/src/config/config.py",
+      "bytes": 6489,
+      "sha256": "bf4ccb19622813bee35d0cfc6eb1c01644175908ecb5affa9faaf9386a577ec0"
+    },
+    {
+      "path": "math-sdk/src/config/constants.py",
+      "bytes": 508,
+      "sha256": "6f9705440284abcc046b63142dbcdb30b7002822aeb838863cd63e5bf9e63ee0"
+    },
+    {
+      "path": "math-sdk/src/config/distributions.py",
+      "bytes": 2398,
+      "sha256": "2fdaa747dc4e92a6c05426d61d4bfc67bb40b87565d2748ba7972a06cb59329c"
+    },
+    {
+      "path": "math-sdk/src/config/optimization_paramaters.py",
+      "bytes": 2205,
+      "sha256": "354b23867de8208317cd9171c52603e221eb6b5cc354271e0c8e68ea04b33e71"
+    },
+    {
+      "path": "math-sdk/src/config/output_filenames.py",
+      "bytes": 7855,
+      "sha256": "2a97ff033fe4c9a50e96e82adb4d525fcfdee5d7d938a6a9168b573e1b0f5fdd"
+    },
+    {
+      "path": "math-sdk/src/config/paths.py",
+      "bytes": 403,
+      "sha256": "8eaebaa9afe7003f4aa2f4e4778bad5709a457922a15a03a8083d2795126a41e"
+    },
+    {
+      "path": "math-sdk/src/events/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/events/event_constants.py",
+      "bytes": 768,
+      "sha256": "bd97184ccef6f5f52854e704471b7bd402be7d5d98a3a90565e5cc8cb97edc3c"
+    },
+    {
+      "path": "math-sdk/src/events/events.py",
+      "bytes": 9542,
+      "sha256": "943adc2246bdc545c696c0648f0c905a5b6df0a711137dbae6902b87106c3ea8"
+    },
+    {
+      "path": "math-sdk/src/executables/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/executables/executables.py",
+      "bytes": 4218,
+      "sha256": "1221b87c8609de2f2d7337667ed197b6e7a7bda8c90da7dccdd66ae214727433"
+    },
+    {
+      "path": "math-sdk/src/state/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/state/books.py",
+      "bytes": 1132,
+      "sha256": "b334265b7f9643dbc905875995a3750947d8c2644f209983c5485d7303c2cc21"
+    },
+    {
+      "path": "math-sdk/src/state/run_sims.py",
+      "bytes": 10480,
+      "sha256": "847d00fdeb30d570693e2337ce1a61bc64828eb1ee7fd8757e61046798030ca3"
+    },
+    {
+      "path": "math-sdk/src/state/state.py",
+      "bytes": 12200,
+      "sha256": "8bdd6f37690a6b5f22ea2d030c353b7ff8fa554f9ed21209c9fa897a0231097d"
+    },
+    {
+      "path": "math-sdk/src/state/state_conditions.py",
+      "bytes": 1136,
+      "sha256": "1c5b1ce1909bfe84027c5f3e99fd31ab4febf4e49128e6da6a1eb88aec9d13ba"
+    },
+    {
+      "path": "math-sdk/src/wins/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/wins/multiplier_strategy.py",
+      "bytes": 1987,
+      "sha256": "ed50f4b9621ba8c025f803f34cf60ade972808dc1917c310361b47c3c11750bc"
+    },
+    {
+      "path": "math-sdk/src/wins/win_manager.py",
+      "bytes": 2518,
+      "sha256": "ff73edad4a41b021497047ab365632ab1ab1cd51b2ccb97fe62eaf49ffe8accb"
+    },
+    {
+      "path": "math-sdk/src/write_data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/src/write_data/force.py",
+      "bytes": 2593,
+      "sha256": "974dacfa5c5f18c376c64cb9e6fc691b6447fcf8a5de063830f6efc2a6739711"
+    },
+    {
+      "path": "math-sdk/src/write_data/write_configs.py",
+      "bytes": 15543,
+      "sha256": "0587eeb7e54dadd8b1719ab568070ea4bc090db6fb87266c29ba1c575b872ca0"
+    },
+    {
+      "path": "math-sdk/src/write_data/write_data.py",
+      "bytes": 13267,
+      "sha256": "6b708426b4799589659ca62ce8d28ec53ee290f09b289f8146ff2bf328e6ec17"
+    },
+    {
+      "path": "math-sdk/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/utils/analysis/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/utils/analysis/challenge_sheets.py",
+      "bytes": 6356,
+      "sha256": "e79a72ddc8b189bac4c502e1f6d926609ec757fb3c72435d04ddb9c4aa1d639c"
+    },
+    {
+      "path": "math-sdk/utils/analysis/distribution_functions.py",
+      "bytes": 6733,
+      "sha256": "7f9aee4989d35c0e687b4c42f9d1a226300cbcda20560e93be61f7c7b49ff0db"
+    },
+    {
+      "path": "math-sdk/utils/analysis/plot_distribution.py",
+      "bytes": 1832,
+      "sha256": "d59cb966c3fe7d1e40c4126de14941ae47c90d58610d601bc7fcfdb1db5920ad"
+    },
+    {
+      "path": "math-sdk/utils/decompress_zstd.py",
+      "bytes": 1272,
+      "sha256": "703d1ab3d18ed2f20b5adca7d8f08a53d596ac22df8051e377b45fc5a529111f"
+    },
+    {
+      "path": "math-sdk/utils/format_books_json.py",
+      "bytes": 14337,
+      "sha256": "5a68b475c57809eda69929dbfc065e67690ab5b0d4df2736f2ed586783faafd5"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/get_pay_splits.py",
+      "bytes": 5598,
+      "sha256": "29f90ea246da1cc7dee5996fb77f95253d8d20800304f75549ef4820c5cf12d8"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/get_symbol_hits.py",
+      "bytes": 6220,
+      "sha256": "131e048a982f71f5a3204b71501a00ddbd9f2b1a69feebbc14438ac730f8027f"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/print_all_results.py",
+      "bytes": 9146,
+      "sha256": "d7f1225350cf3324afd0dc3294d0aaa6afefd1719ce81df355c16b2693477c05"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/retrieve_game_information.py",
+      "bytes": 7555,
+      "sha256": "a2ca158734590705ce62dbdffe4c6d47dac646c5894394498ce8a89145d06e00"
+    },
+    {
+      "path": "math-sdk/utils/game_analytics/run_analysis.py",
+      "bytes": 638,
+      "sha256": "bdf7eb0a8fab587726d52227b0545ca9dafbf4bf45f94b7588cafc1b229b5165"
+    },
+    {
+      "path": "math-sdk/utils/get_file_hash.py",
+      "bytes": 1965,
+      "sha256": "1fcc8e4dabbfbc21b18f2646c04d7795190a4c9134cba7424bb04ad56d5fcf23"
+    },
+    {
+      "path": "math-sdk/utils/merge_luts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "math-sdk/utils/merge_luts/helper_funcs.py",
+      "bytes": 1430,
+      "sha256": "67bc98cdd6ec42404d3458a912c463ac8b030aafc9e1f56b0ca43d3e3debb46b"
+    },
+    {
+      "path": "math-sdk/utils/merge_luts/lookup_properties.py",
+      "bytes": 3932,
+      "sha256": "794ffa08afe43d173ae8654b309eb0282d4ba65728047e22c836da0b49205a8c"
+    },
+    {
+      "path": "math-sdk/utils/merge_luts/merge_lookups.py",
+      "bytes": 2680,
+      "sha256": "a0da028195523cfa1a1fb5471e46692421ba4affe752e16f3c27469a3b1fed4d"
+    },
+    {
+      "path": "math-sdk/utils/merge_luts/notes.md",
+      "bytes": 543,
+      "sha256": "43b73cb5a5a0e9a63f888b69a7874fc3160cf275e12063ab30c010aeca0a289f"
+    },
+    {
+      "path": "math-sdk/utils/rgs_verification.py",
+      "bytes": 12515,
+      "sha256": "bc2ce5fdda73f07f53d298322b0e9f97a67425d6ad30c96a6ee24403dd2406ba"
+    },
+    {
+      "path": "math-sdk/utils/search_tool/forcetool_example.py",
+      "bytes": 1446,
+      "sha256": "541c27f69f50d4de5cddd202053d0157c3094b6e97052cadf9db3a763179fd49"
+    },
+    {
+      "path": "math-sdk/utils/search_tool/forcetool_ids.py",
+      "bytes": 5927,
+      "sha256": "36b822218e82237dbdd4b53a531e0f46367939475c805a850a446e540e66ebcb"
+    },
+    {
+      "path": "math-sdk/utils/swap_lookups.py",
+      "bytes": 2632,
+      "sha256": "1e607bcab8a155b562a006e33e2f6d93e78400ba519704fb58d2f99ab762efcc"
+    }
+  ]
+}
